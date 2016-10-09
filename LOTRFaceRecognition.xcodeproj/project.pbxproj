@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71C230F547B4AB50731772CA /* libPods-LOTRFaceRecognition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */; };
+		AED9AA9CAB7D3ABDEF6BA761 /* libPods-LOTRFaceRecognitionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */; };
+		B1972FBE0DABFE60AD5EF42E /* libPods-LOTRFaceRecognitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */; };
 		CD54C9B61DA9F8B9004ECC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B51DA9F8B9004ECC7F /* main.m */; };
 		CD54C9B91DA9F8B9004ECC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */; };
 		CD54C9BC1DA9F8B9004ECC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147D9B8C522B624D431A498A /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1737C942C1BC0CDCD09FC867 /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACDDE9CCDDC1184500BB5CB /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C80FF3BE0CB082341DC3AB /* Pods-LOTRFaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9B11DA9F8B9004ECC7F /* LOTRFaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRFaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9B51DA9F8B9004ECC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD54C9B71DA9F8B9004ECC7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		CD54C9D51DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRFaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOTRFaceRecognitionUITests.m; sourceTree = "<group>"; };
 		CD54C9DB1DA9F8BA004ECC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7F231AC88F0194C5A0DF6C /* Pods-LOTRFaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		EDF468F4FED854C60DA24A6E /* Pods-LOTRFaceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C230F547B4AB50731772CA /* libPods-LOTRFaceRecognition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1972FBE0DABFE60AD5EF42E /* libPods-LOTRFaceRecognitionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED9AA9CAB7D3ABDEF6BA761 /* libPods-LOTRFaceRecognitionUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6020C21A05E5C2E64114E9D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C80FF3BE0CB082341DC3AB /* Pods-LOTRFaceRecognition.debug.xcconfig */,
+				DC7F231AC88F0194C5A0DF6C /* Pods-LOTRFaceRecognition.release.xcconfig */,
+				6ACDDE9CCDDC1184500BB5CB /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */,
+				EDF468F4FED854C60DA24A6E /* Pods-LOTRFaceRecognitionTests.release.xcconfig */,
+				1737C942C1BC0CDCD09FC867 /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */,
+				147D9B8C522B624D431A498A /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD54C9A81DA9F8B9004ECC7F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				CD54C9CD1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests */,
 				CD54C9D81DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests */,
 				CD54C9B21DA9F8B9004ECC7F /* Products */,
+				6020C21A05E5C2E64114E9D7 /* Pods */,
+				F6723217B0492F85FAEC8068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +170,16 @@
 			path = LOTRFaceRecognitionUITests;
 			sourceTree = "<group>";
 		};
+		F6723217B0492F85FAEC8068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */,
+				6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */,
+				9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD54C9DE1DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognition" */;
 			buildPhases = (
+				F4A519F193BFCE80A6DD48E2 /* [CP] Check Pods Manifest.lock */,
 				CD54C9AD1DA9F8B9004ECC7F /* Sources */,
 				CD54C9AE1DA9F8B9004ECC7F /* Frameworks */,
 				CD54C9AF1DA9F8B9004ECC7F /* Resources */,
+				50E55A480D6840CC4C88F1A5 /* [CP] Embed Pods Frameworks */,
+				0D587CBE3AA37CB9A06D1FD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD54C9E11DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionTests" */;
 			buildPhases = (
+				1FD2E6F2CD912AE54F3359A5 /* [CP] Check Pods Manifest.lock */,
 				CD54C9C61DA9F8BA004ECC7F /* Sources */,
 				CD54C9C71DA9F8BA004ECC7F /* Frameworks */,
 				CD54C9C81DA9F8BA004ECC7F /* Resources */,
+				0E8F93A7B6A824699FC13AA4 /* [CP] Embed Pods Frameworks */,
+				921FE0070B27CB419FC0CC1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD54C9E41DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionUITests" */;
 			buildPhases = (
+				0E8E0EE3E538BCD59D881F75 /* [CP] Check Pods Manifest.lock */,
 				CD54C9D11DA9F8BA004ECC7F /* Sources */,
 				CD54C9D21DA9F8BA004ECC7F /* Frameworks */,
 				CD54C9D31DA9F8BA004ECC7F /* Resources */,
+				05F764F526EDA24186EB8C6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +318,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F764F526EDA24186EB8C6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D587CBE3AA37CB9A06D1FD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E8E0EE3E538BCD59D881F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E8F93A7B6A824699FC13AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD2E6F2CD912AE54F3359A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50E55A480D6840CC4C88F1A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921FE0070B27CB419FC0CC1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A519F193BFCE80A6DD48E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD54C9AD1DA9F8B9004ECC7F /* Sources */ = {
@@ -423,6 +594,7 @@
 		};
 		CD54C9DF1DA9F8BA004ECC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C80FF3BE0CB082341DC3AB /* Pods-LOTRFaceRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6KMZHX56L;
@@ -435,6 +607,7 @@
 		};
 		CD54C9E01DA9F8BA004ECC7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7F231AC88F0194C5A0DF6C /* Pods-LOTRFaceRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6KMZHX56L;
@@ -447,6 +620,7 @@
 		};
 		CD54C9E21DA9F8BA004ECC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACDDE9CCDDC1184500BB5CB /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = T6KMZHX56L;
@@ -460,6 +634,7 @@
 		};
 		CD54C9E31DA9F8BA004ECC7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF468F4FED854C60DA24A6E /* Pods-LOTRFaceRecognitionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = T6KMZHX56L;
@@ -473,6 +648,7 @@
 		};
 		CD54C9E51DA9F8BA004ECC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1737C942C1BC0CDCD09FC867 /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = T6KMZHX56L;
 				INFOPLIST_FILE = LOTRFaceRecognitionUITests/Info.plist;
@@ -485,6 +661,7 @@
 		};
 		CD54C9E61DA9F8BA004ECC7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147D9B8C522B624D431A498A /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = T6KMZHX56L;
 				INFOPLIST_FILE = LOTRFaceRecognitionUITests/Info.plist;
@@ -514,6 +691,7 @@
 				CD54C9E01DA9F8BA004ECC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD54C9E11DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +700,7 @@
 				CD54C9E31DA9F8BA004ECC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD54C9E41DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +709,7 @@
 				CD54C9E61DA9F8BA004ECC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
