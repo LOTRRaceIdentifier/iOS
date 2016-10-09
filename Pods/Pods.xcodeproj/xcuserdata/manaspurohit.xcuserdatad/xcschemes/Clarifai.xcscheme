@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BACB47CCC9755497628EC9F9F10D72C3'
+               BlueprintIdentifier = 'FCCF335B099A8F5C85B6E062AEA6A559'
                BlueprintName = 'Clarifai'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libClarifai.a'>
+               BuildableName = 'Clarifai.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

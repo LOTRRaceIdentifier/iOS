@@ -7,599 +7,632 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F0390A08255F449AC5C42BBDD4F731 /* Pods-LOTRFaceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA800E296269DDDFA0BF0865AFBA91D /* Pods-LOTRFaceRecognition-dummy.m */; };
-		06B9F69170509612A3F21497DCD705FD /* ClarifaiSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B1898BFA2D06294A64BDBC8133E355 /* ClarifaiSearchResult.m */; };
-		0A17BC250B0F1EF8672D422957DF1075 /* ClarifaiInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E6EF8D7CB5EEF7F9ED8D4ABF695C7 /* ClarifaiInput.m */; };
-		0E2E77A989CB3934CC675FD5E3653823 /* ClarifaiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761A267D9E8572E60FC145345C5B73D /* ClarifaiModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B9542DCCE4BE07C64762C798CE1FF1D6 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 873D836BBA408543A0A87342F52DAA66 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F3981B54AAE154981B930F4CD60B955 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */; };
-		204F99C9F2F52AD9012E1F8569C313CB /* ClarifaiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E42205B446BE7303B26F5F6C3B5CC1 /* ClarifaiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 670DAEE568821CA1CC4857292A8BD9E5 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2190B142292D106EA9F10C0C0DB30F54 /* ClarifaiSearchTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7EB3C53857CF6B8F0A20D35DA98C5E /* ClarifaiSearchTerm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 225F77921C26C9B56D7A30BBF40F5C07 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C793E31FD725B89DCBD1C596FD6B41A /* NSArray+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = D21A1262E8F8B855E0CD75D0AF1C30C1 /* NSArray+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE04B5AB46505180E1710A3E2A437EE /* AFHTTPSessionManager.m */; };
-		2D7CCF0FDA18A339B423ACC6F2731FC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */; };
-		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D00F72F5A4040C176A3765AFCA650CD7 /* AFURLRequestSerialization.m */; };
-		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 756120BA1D280683D466973539BADD32 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FBCBB24585CE28891D43F7C1B0A235 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C79BC7D39B86F5960DF2F4C17B81F8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */; };
-		3F72EDF582C9CF82FD1E67B4F725C45F /* ClarifaiApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9367925C2C3D8F37465FF5EBC7CD0B7C /* ClarifaiApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 600C16406F3CCC2A5BA35A1148B656A4 /* AFHTTPRequestOperationManager.m */; };
-		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 742725D056B891EF4C2A2E518CA40E0F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51DA0886934D4F82B134DBBACE2B0D95 /* ClarifaiFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAAF23A35DA095A2784CF695474FB60 /* ClarifaiFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523673816EF66F907E48420808A3D163 /* ClarifaiImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B43982730AAC49985F37FBE0E894C80 /* ClarifaiImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A65FE0EBA4956EFA04655AC5AE83093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
-		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B130F262BC15ADBA2EB46CA4163ED8 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D8F407E9ADFA1B7942323EEEE22F6F9 /* ClarifaiModelVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CD5DD02F1F7AF6B1C3CA0F6D86FFDD /* ClarifaiModelVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6928D05AB5C21528234D4FAE2913CC2A /* ClarifaiSearchTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8BA990259542C23DD4CFB336E2313 /* ClarifaiSearchTerm.m */; };
-		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8463A0DC9DA7398C69ED02A32D2B079 /* AFURLSessionManager.m */; };
-		6D4B3B39D4A48F8FCA0206A9897A3360 /* ClarifaiFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351ECB280C9C364B84833935DBAE355 /* ClarifaiFace.m */; };
-		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7194DD47909E7C5D84356A02183C8C /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7856B91F55A8322B373D1E240D46868F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */; };
-		842F963F9F5A9305958FC65C4E7693CD /* ClarifaiConcept.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E26ECAA12FE3DE505C588A41417FA /* ClarifaiConcept.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C34E2956D25AD7B51ACB2D58069DA2 /* UIRefreshControl+AFNetworking.m */; };
-		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC47954EF1B5C0D4511363BFA0411F /* AFHTTPRequestOperation.m */; };
-		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3356B22842C378ECDACBAF884FF804C7 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90DFF5577ED0D779481EDC5C628BC786 /* ClarifaiModelVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6624471797D3CEDADEB2F04FA1803 /* ClarifaiModelVersion.m */; };
-		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E070792B78A6A72772647BD2D220F02 /* UIButton+AFNetworking.m */; };
-		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F7402C7CD1FDF60F7F717AB537061DD3 /* UIWebView+AFNetworking.m */; };
-		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C204948D860A1AB1A4F6BD7B752508 /* UIAlertView+AFNetworking.m */; };
-		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E086BECEB4B1F070D55DBB9CEB55D4 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4D40CB98611FDA6E559F44D3BBC33C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6822FB278F646B0F6878E0BEEE4D911 /* ClarifaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4660CC720CA44D5BE567DDF8F61D7B3 /* ClarifaiImage.m */; };
-		A8F975D0C812A200A193216D5617AC4F /* NSArray+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EBA72F85E1A4EEFFFA6AE2DC336D64 /* NSArray+Clarifai.m */; };
-		A9FA0DEDA419C7244D65B07B7CB73655 /* Clarifai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559AB4BDCB4A12A8DB5E4DB57D1E4105 /* Clarifai-dummy.m */; };
-		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A42606F37350497D0861413823355A /* UIActivityIndicatorView+AFNetworking.m */; };
-		B00AF9579BBBFCE6E015F3BA83A3132D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
-		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F55C2DD2AA4722F290F169B2F8431A /* AFSecurityPolicy.m */; };
-		B13165DE460048B72F66674D950DF87F /* ClarifaiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2AB189C6F961ABE41A717ED7EACFEC /* ClarifaiConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA47B93EBD07BEEF7CD96EC4B867E0 /* AFNetworkActivityIndicatorManager.m */; };
-		B4BCBF4095CD347423BA53C527EB45DD /* ClarifaiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEB97843270E81F24B1E6EEB49A1AB1 /* ClarifaiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8C8DB4D8130B8A51B291A364DAA34A4 /* ClarifaiApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 86059C15790B2AC6E1A84C6F48FA3E5A /* ClarifaiApp.m */; };
-		B96323346E38C43A3E8CECA25334159A /* Pods-LOTRFaceRecognitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6175A769C74BAB840A0200B9EEB8235 /* Pods-LOTRFaceRecognitionTests-dummy.m */; };
-		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74264539F094FEDA4F7041F87E4A6BE7 /* AFNetworking-dummy.m */; };
-		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C95F8EFAC8FC2B9E63AC29496D49C123 /* AFNetworkReachabilityManager.m */; };
-		C4129E04C44248AC3B34ABB1A73FCDB2 /* ClarifaiInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C95B379AFE1D5E1E89DD59AF5D6DA3 /* ClarifaiInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 743525B79316381B66F70858B8F375EE /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74AB28D28CB10F9068FC924C0B0C55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
-		C76E478E9A58C109BA586E988513B18C /* ClarifaiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB8633E71A76CE915C517A2C8FEF969 /* ClarifaiOutput.m */; };
-		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A17FF7792B87E624D4F76C6A8B50624 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 003E321F51CB6A07E20822C184543BC1 /* AFURLResponseSerialization.m */; };
-		CEF3383A1D18F886F47F55D1F6D0C866 /* Pods-LOTRFaceRecognitionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0791194E66CF9421D575882685147 /* Pods-LOTRFaceRecognitionUITests-dummy.m */; };
-		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2859ABD73AF3C434D86CF2AC7527E1F9 /* UIImageView+AFNetworking.m */; };
-		D2878F2767C43304638475465359E909 /* ClarifaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD5ECF551D3B85753BFEB8B10978B64 /* ClarifaiModel.m */; };
-		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EF711E0A3F45A362EEAF7C7F597573 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8F4DDCF4F9F0B892DF8EBBC9E7B009 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DE0A18D50FC178E45CE40F2D6934CE /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5A63FD15843F44D197B97FEEFF83B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
-		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF7799B9235E3303DC1B442CB16D18E /* AFURLConnectionOperation.m */; };
-		EEC40125BF4C81A2FDB841DF28A9DE51 /* ClarifaiConcept.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D458752D5D10C70F4252DA3AC722297 /* ClarifaiConcept.m */; };
-		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CC144F88C4AD5D95C637F881DC958B /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 418A609069A8C4BAD4F8F9AE6529CB01 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3DCC60D4506AEC21C34975A9FE4280 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBD150A19223559DF6C7AC7D35F8F6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
-		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C555F86F5017E3EF33F1682B347D3 /* UIProgressView+AFNetworking.m */; };
+		06820480093D3402EB21D44D30368F99 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */; };
+		0707E57CEFD3A76D4FF22F1B2A8C2BED /* ClarifaiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0596EC4CBCAF39F54C359E62418FF77E /* ClarifaiConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D348A0DD2AB2D7C9FE16465D42A8412 /* UIImageView+AFNetworking.m */; };
+		0CF8AD2B6AE005729228747DC349DD2A /* ClarifaiImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A529C4BD859D7A60ED64DFF976D59387 /* ClarifaiImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA0DA47972DBE0579C26E620E69496 /* AFURLRequestSerialization.m */; };
+		18A9F80A4F5E020843DA0499F39E4306 /* ClarifaiModelVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617B369D5E0D9DA7A5E116B79707ED5 /* ClarifaiModelVersion.m */; };
+		1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2682EA5D62AA367D5FBAE7E41BF4F /* UIRefreshControl+AFNetworking.m */; };
+		1BA5BFB0E62A323351A7EC512A70B3F8 /* Pods-LOTRFaceRecognitionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CCD53EFAE6A7BC0527BAAC1C79CA12 /* Pods-LOTRFaceRecognitionUITests-dummy.m */; };
+		1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4619925CF0F53F94A3704375AFAA2EE5 /* AFNetworkActivityIndicatorManager.m */; };
+		20310B1EC0A17C961778E2D6133A5579 /* NSArray+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = 386BD1BE16F6C531AD4B345D4BD3AAD3 /* NSArray+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27840D8AC96D3180626B40D4AE7A715F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */; };
+		290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 18993023EE30C64E09EB286BFEC90EE3 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEE7E2D6F3F4822D03AD1BAD462836F /* Pods-LOTRFaceRecognitionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78841D67EE2E19B6A49CDCDF8A254BCA /* Pods-LOTRFaceRecognitionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2E9B1F3D3AE546088B8A54591CCCAC /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CAC05B19287A34118C6E798C13EBE6 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC81C0004E14C8330C572E17ABAC5C7 /* ClarifaiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F87F22605B0ED4C33C9916324CF9C87F /* ClarifaiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A8CB90C75C2402CCA29A43664B9C53 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 143C0522A0943DC50B146F64DC166284 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 432850B1CE424DDDB41448A390E42699 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E5B9E54F5E8DEFECE1898F7F3E30A /* AFSecurityPolicy.m */; };
+		4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBF488A341E150B145AA05D92124AC /* UIActivityIndicatorView+AFNetworking.m */; };
+		4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0852C886A63BAAD65C5BF992AE162D /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F35F45FE22836F376BBF4E2841B44E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */; };
+		51840AC1140A4596EB410733BE25625D /* ClarifaiSearchTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA6C39595B64F529A9DA83E6F90A155 /* ClarifaiSearchTerm.m */; };
+		56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A547DB922AAE5FF80D0C7BD09F718CEA /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5978BBC122D48D9A74773100383E28BD /* ClarifaiSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A899E7B57A38C772CB1F3328401E0 /* ClarifaiSearchResult.m */; };
+		59E32510D0201F13D14DF5CB41CD0E96 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF139D3016A3EC169A4B9F90049B98D /* Security.framework */; };
+		5AF0319862C7608BD330927D8D508BCE /* ClarifaiFace.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1621D3A1F0A0E40909040A022A6E25 /* ClarifaiFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7A2BF182BAA023012E8535DD016E68 /* ClarifaiInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FAC3C0E44D91E69DFE17D7A9C320BD /* ClarifaiInput.m */; };
+		68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CA55BAA0B27B262572BF3810C2CACE8B /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E28EE9B2C7F45A974334630F90614B5 /* ClarifaiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FD72AEE2162AB33E0646E46473235 /* ClarifaiOutput.m */; };
+		6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 048A90845DC691FCC0BBAF8C5826DFB3 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752DDF2256BBB7B41B5B83D8E5D3E663 /* ClarifaiConcept.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2446B56C73FF7E3AE044F64301B84C /* ClarifaiConcept.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B2A6987341244D9508A3DBAF6C1225 /* ClarifaiSearchTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536597C9415661131921D623CD2AEBD /* ClarifaiSearchTerm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9B702CC680902C048C7AEA99B25AB3 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 201A997D6351FEECA0790CCEF26EA8AF /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A350515A5957E31E1FE16395815FA1 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA90A118536B0C4FA2B20532A9565FF /* UIWebView+AFNetworking.m */; };
+		8FFE0CA5DFE3379BBDA253EBFF2D07E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E098DE86ED811B6D87786B436462D468 /* CoreGraphics.framework */; };
+		93AA5933BF3376D47BA6A70FBB634106 /* ClarifaiConcept.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0D9D378124CB2A53DAED07269DE83 /* ClarifaiConcept.m */; };
+		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277A9CF728450B568578276F244F998 /* AFURLSessionManager.m */; };
+		947BD1848D9473181E957ECBF4A3BC63 /* ClarifaiInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC110ADA03643FDCAA58EEF590D4793 /* ClarifaiInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B31B29D46EE7BFA3A2E5AEEEA3BB29 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9903F67F8D36C366323F401BC1607CD8 /* Pods-LOTRFaceRecognitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF30F9500EEAF879FAAA0268BF8D1BCA /* Pods-LOTRFaceRecognitionTests-dummy.m */; };
+		990519F9035FB0ACC8C9C4E56F1296BB /* ClarifaiFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A74C2FDE4843E9FAB0D2BF960B0DD8 /* ClarifaiFace.m */; };
+		9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C95F97D70EC1878262D95A4D5D1641C8 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88A1D854EC86445F255F03F33F4C760 /* Pods-LOTRFaceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172CA5FD154F8AAC733FBB1EC37B717 /* Pods-LOTRFaceRecognition-dummy.m */; };
+		AC7C6289920D865E6FBFC20F0DC4F252 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53988B41BFD74EE13612A4293F09CD6 /* MobileCoreServices.framework */; };
+		B234A38B3FC218A1ADB092F1A3F284D9 /* ClarifaiApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB241E417981B67654C59EC2ABFF15C /* ClarifaiApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3BAAA49336A8EFADA95FF003205F5F4 /* Clarifai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D15A6ACEEA874F7193CA7DF178EA7BBF /* Clarifai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A56D13CA79D317E730EBAC8C4C5D3179 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46E12BD4B3203EDF5FDAE79343D6495 /* ClarifaiApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E0C164833DE3F458C07B60E8FA7B0 /* ClarifaiApp.m */; };
+		B4A3C38C4229B524E690BD618B7B90F3 /* Clarifai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CC9E32DA2B93A289AC54A6DE99825 /* Clarifai-dummy.m */; };
+		B934FFD5E7FD399114664A7994504C9D /* ClarifaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B70C88E0F528CD49C613A678AE5814BD /* ClarifaiImage.m */; };
+		BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 77882B8D9C556080568C3F265CB3FAAD /* UIButton+AFNetworking.m */; };
+		BD9D8357BD0A20651A71EC93E49A7912 /* Pods-LOTRFaceRecognitionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 876FE83AD25CDAE3F5864F5B5AB8068A /* Pods-LOTRFaceRecognitionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B861E7BAC309294A3D7DE50ED103 /* AFNetworkReachabilityManager.m */; };
+		C226C20EE3186E2FAD17429EF2B3C58A /* ClarifaiModelVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4279750DB050DC37A3856010E8EC854D /* ClarifaiModelVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C262DA287BD5DD5D05FF8AA9D01B4A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */; };
+		C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1560089E51AA69D4CA23E494C85E5798 /* AFNetworking-dummy.m */; };
+		C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9309AC10524B9A1BB9CB4CA7E722C1 /* AFURLConnectionOperation.m */; };
+		C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 517608D1A6D9A57D3270931F09D39E80 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D42CB971DCBDAE6EA966048C11158A12 /* AFHTTPRequestOperationManager.m */; };
+		CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 142E8C0861BBB175170FEF490BE60772 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E70D7FB91331EFE8ABCE3B5B5AF0B9 /* UIProgressView+AFNetworking.m */; };
+		D05E81D000CBB043AC97B37033338D5C /* ClarifaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3535BFFFD953DA551C30EC1E830AC164 /* ClarifaiModel.m */; };
+		D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 796BEE75987E217515B1A13616864BC0 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7FD6E93E21EFE41020B17CBF80B38B /* AFHTTPSessionManager.m */; };
+		DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D0FF30FB9EB16396388A5118C74F59 /* AFURLResponseSerialization.m */; };
+		DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 589880813E01B28179E4076A3BB244CE /* AFHTTPRequestOperation.m */; };
+		DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B2B3449B30C7E4002C91531A04E8E5 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E549366D86FFC13D70821043A489E409 /* ClarifaiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 96118B29C0F5F6F9F2BAD1BF4AAC1C7E /* ClarifaiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E684E61FE230E4F6DBA8415311B8E157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */; };
+		E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9C587B3913F6EAF55E9B6235176F7 /* UIAlertView+AFNetworking.m */; };
+		ED19B78814FF6FB4269AC07F724F0A45 /* Pods-LOTRFaceRecognition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01584B6B235AF3B058E3F5E1142303DA /* Pods-LOTRFaceRecognition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D68CFEBB7679556341502C6541F3A /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AA63DBB04D75FA414AB87457E5E2A9 /* NSArray+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = B31B0F86286B97F6540BBD91039E99E3 /* NSArray+Clarifai.m */; };
+		F4BAFB7D8A5A12051E569F928FB3F1D1 /* ClarifaiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 776357E45CE74C66CF95EFB8BFF86A63 /* ClarifaiModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BCC0CB8DFB22AB34ECE9BC5C72DD2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EC046EEE00CAE53FC620929325D144 /* SystemConfiguration.framework */; };
+		FDB0DC6586CDF20657ADF6EB1B845AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9441FF2597ABAA9936CAFD6CC4672CDB /* PBXContainerItemProxy */ = {
+		571DCB56E88B6B83D0A360C075FE57BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BACB47CCC9755497628EC9F9F10D72C3;
-			remoteInfo = Clarifai;
-		};
-		D04DD92DA55878D1F11FE0ABF4CE8104 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
+			remoteGlobalIDString = 4878C70B21CA37D7CB8A476BF986741B;
 			remoteInfo = AFNetworking;
 		};
-		DE0C88D871E88A9BC04360798B506A20 /* PBXContainerItemProxy */ = {
+		60EA80E804A47493C886B3FD8C868F4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
+			remoteGlobalIDString = FCCF335B099A8F5C85B6E062AEA6A559;
+			remoteInfo = Clarifai;
+		};
+		BD10C7CCBAF0260BA05B6D8390955BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4878C70B21CA37D7CB8A476BF986741B;
 			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003E321F51CB6A07E20822C184543BC1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		0B082E50DAE163566CB1BAB2F8749F44 /* Pods-LOTRFaceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
-		0B43982730AAC49985F37FBE0E894C80 /* ClarifaiImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiImage.h; path = Clarifai/Classes/ClarifaiImage.h; sourceTree = "<group>"; };
-		0DE04B5AB46505180E1710A3E2A437EE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		11127378E4255E6A09EF57514231810D /* Pods-LOTRFaceRecognitionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionUITests-frameworks.sh"; sourceTree = "<group>"; };
-		14B130F262BC15ADBA2EB46CA4163ED8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		162C555F86F5017E3EF33F1682B347D3 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		19C95B379AFE1D5E1E89DD59AF5D6DA3 /* ClarifaiInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiInput.h; path = Clarifai/Classes/ClarifaiInput.h; sourceTree = "<group>"; };
-		1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		1B21134FF4B5023F707FF1E7E63A3FAE /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D458752D5D10C70F4252DA3AC722297 /* ClarifaiConcept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiConcept.m; path = Clarifai/Classes/ClarifaiConcept.m; sourceTree = "<group>"; };
-		1F4D40CB98611FDA6E559F44D3BBC33C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		225F77921C26C9B56D7A30BBF40F5C07 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		23A42606F37350497D0861413823355A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		25D86CFC62C2AD68A6D37F0128ACD038 /* Pods-LOTRFaceRecognition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognition-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27CD5DD02F1F7AF6B1C3CA0F6D86FFDD /* ClarifaiModelVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModelVersion.h; path = Clarifai/Classes/ClarifaiModelVersion.h; sourceTree = "<group>"; };
-		2859ABD73AF3C434D86CF2AC7527E1F9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		2AF737A5A7309D34905E660C9356A28C /* Pods-LOTRFaceRecognition-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognition-resources.sh"; sourceTree = "<group>"; };
-		2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		32CC144F88C4AD5D95C637F881DC958B /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		3356B22842C378ECDACBAF884FF804C7 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		398173504E3DF895C669AEF680F039C2 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3FD0791194E66CF9421D575882685147 /* Pods-LOTRFaceRecognitionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognitionUITests-dummy.m"; sourceTree = "<group>"; };
-		418A609069A8C4BAD4F8F9AE6529CB01 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		4202AC134085AAFBE68572CE2CC92916 /* Pods-LOTRFaceRecognitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A25D7A2183BBC241CEAFF11628A47B5 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		4BA0C6506919A4FBEBF10460CBAE3DE7 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		4CEB97843270E81F24B1E6EEB49A1AB1 /* ClarifaiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchResult.h; path = Clarifai/Classes/ClarifaiSearchResult.h; sourceTree = "<group>"; };
-		4E070792B78A6A72772647BD2D220F02 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		5351ECB280C9C364B84833935DBAE355 /* ClarifaiFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiFace.m; path = Clarifai/Classes/ClarifaiFace.m; sourceTree = "<group>"; };
-		559AB4BDCB4A12A8DB5E4DB57D1E4105 /* Clarifai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Clarifai-dummy.m"; sourceTree = "<group>"; };
-		59D849363EFC05095EBCE7503B80782D /* Pods-LOTRFaceRecognition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognition-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A17FF7792B87E624D4F76C6A8B50624 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		5B0AB823EC36981DE4591414507D1963 /* Pods-LOTRFaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
-		5BBDDAEBA5ACF6A2153605A47D28CF8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BC8BA990259542C23DD4CFB336E2313 /* ClarifaiSearchTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchTerm.m; path = Clarifai/Classes/ClarifaiSearchTerm.m; sourceTree = "<group>"; };
-		5D7EB3C53857CF6B8F0A20D35DA98C5E /* ClarifaiSearchTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchTerm.h; path = Clarifai/Classes/ClarifaiSearchTerm.h; sourceTree = "<group>"; };
-		5E7194DD47909E7C5D84356A02183C8C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		600C16406F3CCC2A5BA35A1148B656A4 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		64BC501D9FFE838FF4D79E2E677943C4 /* Pods-LOTRFaceRecognitionTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionTests-frameworks.sh"; sourceTree = "<group>"; };
-		670DAEE568821CA1CC4857292A8BD9E5 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		6B8F4DDCF4F9F0B892DF8EBBC9E7B009 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		6D2AB189C6F961ABE41A717ED7EACFEC /* ClarifaiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConstants.h; path = Clarifai/Classes/ClarifaiConstants.h; sourceTree = "<group>"; };
-		70C1C642EDA300420D7F339A67B35E3A /* libPods-LOTRFaceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70C34E2956D25AD7B51ACB2D58069DA2 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		74264539F094FEDA4F7041F87E4A6BE7 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		742725D056B891EF4C2A2E518CA40E0F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		743525B79316381B66F70858B8F375EE /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		74DE0A18D50FC178E45CE40F2D6934CE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		756120BA1D280683D466973539BADD32 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		7F3DCC60D4506AEC21C34975A9FE4280 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		844E26ECAA12FE3DE505C588A41417FA /* ClarifaiConcept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConcept.h; path = Clarifai/Classes/ClarifaiConcept.h; sourceTree = "<group>"; };
-		84FBCBB24585CE28891D43F7C1B0A235 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		86059C15790B2AC6E1A84C6F48FA3E5A /* ClarifaiApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiApp.m; path = Clarifai/Classes/ClarifaiApp.m; sourceTree = "<group>"; };
-		873D836BBA408543A0A87342F52DAA66 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		8761A267D9E8572E60FC145345C5B73D /* ClarifaiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModel.h; path = Clarifai/Classes/ClarifaiModel.h; sourceTree = "<group>"; };
-		886B00CF02E0374E1B5322AFBD395F12 /* libPods-LOTRFaceRecognitionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAAF23A35DA095A2784CF695474FB60 /* ClarifaiFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiFace.h; path = Clarifai/Classes/ClarifaiFace.h; sourceTree = "<group>"; };
-		8DB9005956C74934FB48C2C0596884F0 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		91E15EB046E2D14FB97C5F64ACCE9073 /* Pods-LOTRFaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
-		92E42205B446BE7303B26F5F6C3B5CC1 /* ClarifaiOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutput.h; path = Clarifai/Classes/ClarifaiOutput.h; sourceTree = "<group>"; };
-		9367925C2C3D8F37465FF5EBC7CD0B7C /* ClarifaiApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiApp.h; path = Clarifai/Classes/ClarifaiApp.h; sourceTree = "<group>"; };
+		01584B6B235AF3B058E3F5E1142303DA /* Pods-LOTRFaceRecognition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOTRFaceRecognition-umbrella.h"; sourceTree = "<group>"; };
+		023FC20EC1B614AD92E9779AC0BFA33B /* Pods-LOTRFaceRecognition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognition-acknowledgements.plist"; sourceTree = "<group>"; };
+		0449307619B44E46E620B63B2F51363E /* Pods-LOTRFaceRecognitionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LOTRFaceRecognitionUITests.modulemap"; sourceTree = "<group>"; };
+		048A90845DC691FCC0BBAF8C5826DFB3 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		0596EC4CBCAF39F54C359E62418FF77E /* ClarifaiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConstants.h; path = Clarifai/Classes/ClarifaiConstants.h; sourceTree = "<group>"; };
+		05DFA7B5B586614D593098B2AA4F2195 /* Pods-LOTRFaceRecognitionTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionTests-frameworks.sh"; sourceTree = "<group>"; };
+		06D7BAE315E06D59F14E0D5B5E8D4D0A /* Pods_LOTRFaceRecognitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2446B56C73FF7E3AE044F64301B84C /* ClarifaiConcept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConcept.h; path = Clarifai/Classes/ClarifaiConcept.h; sourceTree = "<group>"; };
+		142E8C0861BBB175170FEF490BE60772 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		143C0522A0943DC50B146F64DC166284 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1560089E51AA69D4CA23E494C85E5798 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		1617B369D5E0D9DA7A5E116B79707ED5 /* ClarifaiModelVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModelVersion.m; path = Clarifai/Classes/ClarifaiModelVersion.m; sourceTree = "<group>"; };
+		16CBF488A341E150B145AA05D92124AC /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		17D0FF30FB9EB16396388A5118C74F59 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18993023EE30C64E09EB286BFEC90EE3 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		198FD72AEE2162AB33E0646E46473235 /* ClarifaiOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutput.m; path = Clarifai/Classes/ClarifaiOutput.m; sourceTree = "<group>"; };
+		1D348A0DD2AB2D7C9FE16465D42A8412 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		1FC110ADA03643FDCAA58EEF590D4793 /* ClarifaiInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiInput.h; path = Clarifai/Classes/ClarifaiInput.h; sourceTree = "<group>"; };
+		201A997D6351FEECA0790CCEF26EA8AF /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		20CCD53EFAE6A7BC0527BAAC1C79CA12 /* Pods-LOTRFaceRecognitionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognitionUITests-dummy.m"; sourceTree = "<group>"; };
+		20D7F88C08D0120F8C6427F474412D43 /* Pods_LOTRFaceRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9309AC10524B9A1BB9CB4CA7E722C1 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		2D353B8160258EE8416FB71645E7F435 /* Pods-LOTRFaceRecognition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LOTRFaceRecognition.modulemap"; sourceTree = "<group>"; };
+		2F6C0B34A67C44E8A6F39380A4CD1F9E /* Pods-LOTRFaceRecognitionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LOTRFaceRecognitionTests.modulemap"; sourceTree = "<group>"; };
+		3172CA5FD154F8AAC733FBB1EC37B717 /* Pods-LOTRFaceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognition-dummy.m"; sourceTree = "<group>"; };
+		31C232E2BA17E0CF8001BE64CEB93ED8 /* Clarifai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clarifai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3535BFFFD953DA551C30EC1E830AC164 /* ClarifaiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModel.m; path = Clarifai/Classes/ClarifaiModel.m; sourceTree = "<group>"; };
+		3598F803F8637772A54C74A0DB92B8D2 /* Pods-LOTRFaceRecognition-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognition-resources.sh"; sourceTree = "<group>"; };
+		386BD1BE16F6C531AD4B345D4BD3AAD3 /* NSArray+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Clarifai.h"; path = "Clarifai/Classes/NSArray+Clarifai.h"; sourceTree = "<group>"; };
+		39AD00F2D47C637022F1E2ADCE5F043F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9B702CC680902C048C7AEA99B25AB3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		3AB241E417981B67654C59EC2ABFF15C /* ClarifaiApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiApp.h; path = Clarifai/Classes/ClarifaiApp.h; sourceTree = "<group>"; };
+		4279750DB050DC37A3856010E8EC854D /* ClarifaiModelVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModelVersion.h; path = Clarifai/Classes/ClarifaiModelVersion.h; sourceTree = "<group>"; };
+		42B2B3449B30C7E4002C91531A04E8E5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		42DE6E7F53CF6A967B9BF6565D56B721 /* Pods-LOTRFaceRecognitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		432850B1CE424DDDB41448A390E42699 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4619925CF0F53F94A3704375AFAA2EE5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		46A350515A5957E31E1FE16395815FA1 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		4A0852C886A63BAAD65C5BF992AE162D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4A109E19EBFEEE8DD50817658CC57947 /* Pods-LOTRFaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		517608D1A6D9A57D3270931F09D39E80 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		5277A9CF728450B568578276F244F998 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		5277F218447AA16F6F7C1C3083F0A241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57CFE197997266BBC204B1CA0B750F8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57E70D7FB91331EFE8ABCE3B5B5AF0B9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		589880813E01B28179E4076A3BB244CE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		5C7BCCB681A3232CA5A0288EFECDEEC1 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7FED6072FA4D55C76BADE18DFDEE77 /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		627D68CFEBB7679556341502C6541F3A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		6538F93E0F04829ECA7206DFC5D0828F /* Pods-LOTRFaceRecognitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		666378CFE4604F44B2EF48CCFEDD2ABE /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		6F2E9B1F3D3AE546088B8A54591CCCAC /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		749E4B7583D06AB03C5A937A61570B9A /* Clarifai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Clarifai.modulemap; sourceTree = "<group>"; };
+		7536597C9415661131921D623CD2AEBD /* ClarifaiSearchTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchTerm.h; path = Clarifai/Classes/ClarifaiSearchTerm.h; sourceTree = "<group>"; };
+		776357E45CE74C66CF95EFB8BFF86A63 /* ClarifaiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModel.h; path = Clarifai/Classes/ClarifaiModel.h; sourceTree = "<group>"; };
+		77882B8D9C556080568C3F265CB3FAAD /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		78841D67EE2E19B6A49CDCDF8A254BCA /* Pods-LOTRFaceRecognitionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOTRFaceRecognitionTests-umbrella.h"; sourceTree = "<group>"; };
+		788F1E569A356BEB94A0CA0C18155F0A /* Pods_LOTRFaceRecognitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796BEE75987E217515B1A13616864BC0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7F9A899E7B57A38C772CB1F3328401E0 /* ClarifaiSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchResult.m; path = Clarifai/Classes/ClarifaiSearchResult.m; sourceTree = "<group>"; };
+		86BD49F60CB9C2C60953AF271A2BDF15 /* Pods-LOTRFaceRecognition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognition-frameworks.sh"; sourceTree = "<group>"; };
+		876FE83AD25CDAE3F5864F5B5AB8068A /* Pods-LOTRFaceRecognitionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOTRFaceRecognitionUITests-umbrella.h"; sourceTree = "<group>"; };
+		885E0C164833DE3F458C07B60E8FA7B0 /* ClarifaiApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiApp.m; path = Clarifai/Classes/ClarifaiApp.m; sourceTree = "<group>"; };
+		896457752B0373C8BE9F6853EAA457CA /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		8EF139D3016A3EC169A4B9F90049B98D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		90607CC0EF90F92CB46F6E6FDDC82028 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9332D5B1E4A61B7F04B760D811B47D66 /* Clarifai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93DCC37671ED8FA218BF0EF72F71B80A /* Pods-LOTRFaceRecognitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		990B5ADD6313486C05F03F723E5B4255 /* Clarifai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Clarifai.xcconfig; sourceTree = "<group>"; };
-		A2FA47B93EBD07BEEF7CD96EC4B867E0 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		A4660CC720CA44D5BE567DDF8F61D7B3 /* ClarifaiImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiImage.m; path = Clarifai/Classes/ClarifaiImage.m; sourceTree = "<group>"; };
-		A59B92761F242E2DBE57BF35900606E2 /* Pods-LOTRFaceRecognitionUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionUITests-resources.sh"; sourceTree = "<group>"; };
-		ADA800E296269DDDFA0BF0865AFBA91D /* Pods-LOTRFaceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognition-dummy.m"; sourceTree = "<group>"; };
-		B4B1898BFA2D06294A64BDBC8133E355 /* ClarifaiSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchResult.m; path = Clarifai/Classes/ClarifaiSearchResult.m; sourceTree = "<group>"; };
-		B9542DCCE4BE07C64762C798CE1FF1D6 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		BBF7799B9235E3303DC1B442CB16D18E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		BDB8633E71A76CE915C517A2C8FEF969 /* ClarifaiOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutput.m; path = Clarifai/Classes/ClarifaiOutput.m; sourceTree = "<group>"; };
-		C91F506F83A67F7103034527C2AC1EE3 /* libClarifai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClarifai.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9521EB966B11658BC99831F8CEE1700 /* Pods-LOTRFaceRecognition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognition-frameworks.sh"; sourceTree = "<group>"; };
-		C95F8EFAC8FC2B9E63AC29496D49C123 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		D00F72F5A4040C176A3765AFCA650CD7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		D0EF711E0A3F45A362EEAF7C7F597573 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		D1BA660A6692AC54C4DC46A05F6633C5 /* Clarifai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-prefix.pch"; sourceTree = "<group>"; };
-		D21A1262E8F8B855E0CD75D0AF1C30C1 /* NSArray+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Clarifai.h"; path = "Clarifai/Classes/NSArray+Clarifai.h"; sourceTree = "<group>"; };
-		D58DBEB40BAB7391DAF387EE169EB820 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognitionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6175A769C74BAB840A0200B9EEB8235 /* Pods-LOTRFaceRecognitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognitionTests-dummy.m"; sourceTree = "<group>"; };
-		D6FC47954EF1B5C0D4511363BFA0411F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		D89E6EF8D7CB5EEF7F9ED8D4ABF695C7 /* ClarifaiInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiInput.m; path = Clarifai/Classes/ClarifaiInput.m; sourceTree = "<group>"; };
-		DDD5ECF551D3B85753BFEB8B10978B64 /* ClarifaiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModel.m; path = Clarifai/Classes/ClarifaiModel.m; sourceTree = "<group>"; };
-		E51856F78E4EFB8898842595223B127F /* Pods-LOTRFaceRecognitionTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionTests-resources.sh"; sourceTree = "<group>"; };
-		E5E086BECEB4B1F070D55DBB9CEB55D4 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		E6C204948D860A1AB1A4F6BD7B752508 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		E7F55C2DD2AA4722F290F169B2F8431A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		E8EBA72F85E1A4EEFFFA6AE2DC336D64 /* NSArray+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Clarifai.m"; path = "Clarifai/Classes/NSArray+Clarifai.m"; sourceTree = "<group>"; };
-		ECB6624471797D3CEDADEB2F04FA1803 /* ClarifaiModelVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModelVersion.m; path = Clarifai/Classes/ClarifaiModelVersion.m; sourceTree = "<group>"; };
-		F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		F7402C7CD1FDF60F7F717AB537061DD3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		F8463A0DC9DA7398C69ED02A32D2B079 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		FD42D1B62858FFC040746A5BE70BCE43 /* libPods-LOTRFaceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE84A4AC8C0FF7D1430D2FF81B11422B /* Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95A74C2FDE4843E9FAB0D2BF960B0DD8 /* ClarifaiFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiFace.m; path = Clarifai/Classes/ClarifaiFace.m; sourceTree = "<group>"; };
+		96118B29C0F5F6F9F2BAD1BF4AAC1C7E /* ClarifaiOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutput.h; path = Clarifai/Classes/ClarifaiOutput.h; sourceTree = "<group>"; };
+		96A8CB90C75C2402CCA29A43664B9C53 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9D3CC9E32DA2B93A289AC54A6DE99825 /* Clarifai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Clarifai-dummy.m"; sourceTree = "<group>"; };
+		A529C4BD859D7A60ED64DFF976D59387 /* ClarifaiImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiImage.h; path = Clarifai/Classes/ClarifaiImage.h; sourceTree = "<group>"; };
+		A547DB922AAE5FF80D0C7BD09F718CEA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A56D13CA79D317E730EBAC8C4C5D3179 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		A8B31B29D46EE7BFA3A2E5AEEEA3BB29 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		A9A0D9D378124CB2A53DAED07269DE83 /* ClarifaiConcept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiConcept.m; path = Clarifai/Classes/ClarifaiConcept.m; sourceTree = "<group>"; };
+		AAA90A118536B0C4FA2B20532A9565FF /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		ABAA0DA47972DBE0579C26E620E69496 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AD0D0689E233763FEC35A326058AFC60 /* Pods-LOTRFaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		AE2BBE60AFF0D3180C3EACBAABF2564B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		B1F9633737767D174B21D754BE861172 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B31B0F86286B97F6540BBD91039E99E3 /* NSArray+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Clarifai.m"; path = "Clarifai/Classes/NSArray+Clarifai.m"; sourceTree = "<group>"; };
+		B32B14AD588BB7B94E4A848A4FB4278B /* Pods-LOTRFaceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		B70C88E0F528CD49C613A678AE5814BD /* ClarifaiImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiImage.m; path = Clarifai/Classes/ClarifaiImage.m; sourceTree = "<group>"; };
+		B8922DF3BCE9B8936C993DB2D6E4963C /* Pods-LOTRFaceRecognitionUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionUITests-resources.sh"; sourceTree = "<group>"; };
+		C53988B41BFD74EE13612A4293F09CD6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C95F97D70EC1878262D95A4D5D1641C8 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C9EC046EEE00CAE53FC620929325D144 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		CA0E5B9E54F5E8DEFECE1898F7F3E30A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CA55BAA0B27B262572BF3810C2CACE8B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CB06FA78988B11759FCC50A8087B965E /* Pods-LOTRFaceRecognitionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CDD4BF7AF0A280991DCCA93A57CB8BC7 /* Pods-LOTRFaceRecognitionTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOTRFaceRecognitionTests-resources.sh"; sourceTree = "<group>"; };
+		CEA4B861E7BAC309294A3D7DE50ED103 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D0CBB82B74F4FC8836E3807E3A285160 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOTRFaceRecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D15A6ACEEA874F7193CA7DF178EA7BBF /* Clarifai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-umbrella.h"; sourceTree = "<group>"; };
+		D42CB971DCBDAE6EA966048C11158A12 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		D6B5A4B66511CC196D1A3F3174B876CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FAC3C0E44D91E69DFE17D7A9C320BD /* ClarifaiInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiInput.m; path = Clarifai/Classes/ClarifaiInput.m; sourceTree = "<group>"; };
+		D9F2682EA5D62AA367D5FBAE7E41BF4F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		DA394AEF9009E99503955F5225381D49 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOTRFaceRecognitionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAF9C587B3913F6EAF55E9B6235176F7 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		DE1621D3A1F0A0E40909040A022A6E25 /* ClarifaiFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiFace.h; path = Clarifai/Classes/ClarifaiFace.h; sourceTree = "<group>"; };
+		DF30F9500EEAF879FAAA0268BF8D1BCA /* Pods-LOTRFaceRecognitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOTRFaceRecognitionTests-dummy.m"; sourceTree = "<group>"; };
+		DFA6C39595B64F529A9DA83E6F90A155 /* ClarifaiSearchTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchTerm.m; path = Clarifai/Classes/ClarifaiSearchTerm.m; sourceTree = "<group>"; };
+		E098DE86ED811B6D87786B436462D468 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E57137D6974ACEBA3C3FC817AB1D230B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7FD6E93E21EFE41020B17CBF80B38B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F196F450D2E11B247CCBB663C0D0472A /* Pods-LOTRFaceRecognition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOTRFaceRecognition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7CAC05B19287A34118C6E798C13EBE6 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		F85D78EA06AB50AD85B0EB7759499F9D /* Clarifai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Clarifai.xcconfig; sourceTree = "<group>"; };
+		F87F22605B0ED4C33C9916324CF9C87F /* ClarifaiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchResult.h; path = Clarifai/Classes/ClarifaiSearchResult.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2430BFFB780467016A8A469038682AB7 /* Frameworks */ = {
+		0D7BCC6B3B10DDB14A2E5C506DF0AB26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00AF9579BBBFCE6E015F3BA83A3132D /* Foundation.framework in Frameworks */,
+				4F35F45FE22836F376BBF4E2841B44E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		458D4F493733FF767B719818B90CFB97 /* Frameworks */ = {
+		2B7804388A1DCE004A8F78B2452B293C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD150A19223559DF6C7AC7D35F8F6D0 /* Foundation.framework in Frameworks */,
+				E684E61FE230E4F6DBA8415311B8E157 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E04A4BB2C66C4AEF7110C03A7D4832 /* Frameworks */ = {
+		60C3D26E2C8843CA90222B621C57A0DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A65FE0EBA4956EFA04655AC5AE83093 /* Foundation.framework in Frameworks */,
+				8FFE0CA5DFE3379BBDA253EBFF2D07E2 /* CoreGraphics.framework in Frameworks */,
+				27840D8AC96D3180626B40D4AE7A715F /* Foundation.framework in Frameworks */,
+				AC7C6289920D865E6FBFC20F0DC4F252 /* MobileCoreServices.framework in Frameworks */,
+				59E32510D0201F13D14DF5CB41CD0E96 /* Security.framework in Frameworks */,
+				F7BCC0CB8DFB22AB34ECE9BC5C72DD2B /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECF8672047FC0072E9C07D6CE09439A4 /* Frameworks */ = {
+		C305A470BEBF04A294BA750F9862F888 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74AB28D28CB10F9068FC924C0B0C55B /* Foundation.framework in Frameworks */,
+				06820480093D3402EB21D44D30368F99 /* AFNetworking.framework in Frameworks */,
+				FDB0DC6586CDF20657ADF6EB1B845AAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */ = {
+		EB50B7A0AAE712FAA57A2412C215CD39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7CCF0FDA18A339B423ACC6F2731FC8 /* CoreGraphics.framework in Frameworks */,
-				E5A63FD15843F44D197B97FEEFF83B8F /* Foundation.framework in Frameworks */,
-				1F3981B54AAE154981B930F4CD60B955 /* MobileCoreServices.framework in Frameworks */,
-				3C79BC7D39B86F5960DF2F4C17B81F8F /* Security.framework in Frameworks */,
-				7856B91F55A8322B373D1E240D46868F /* SystemConfiguration.framework in Frameworks */,
+				C262DA287BD5DD5D05FF8AA9D01B4A3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+		0477BB1E400DE12FC3C72B6C5C7F01BC /* Pods-LOTRFaceRecognitionUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2125665513EB302DC927AA6387C1F3DE /* Pods-LOTRFaceRecognition */ = {
-			isa = PBXGroup;
-			children = (
-				25D86CFC62C2AD68A6D37F0128ACD038 /* Pods-LOTRFaceRecognition-acknowledgements.markdown */,
-				59D849363EFC05095EBCE7503B80782D /* Pods-LOTRFaceRecognition-acknowledgements.plist */,
-				ADA800E296269DDDFA0BF0865AFBA91D /* Pods-LOTRFaceRecognition-dummy.m */,
-				C9521EB966B11658BC99831F8CEE1700 /* Pods-LOTRFaceRecognition-frameworks.sh */,
-				2AF737A5A7309D34905E660C9356A28C /* Pods-LOTRFaceRecognition-resources.sh */,
-				5B0AB823EC36981DE4591414507D1963 /* Pods-LOTRFaceRecognition.debug.xcconfig */,
-				91E15EB046E2D14FB97C5F64ACCE9073 /* Pods-LOTRFaceRecognition.release.xcconfig */,
-			);
-			name = "Pods-LOTRFaceRecognition";
-			path = "Target Support Files/Pods-LOTRFaceRecognition";
-			sourceTree = "<group>";
-		};
-		22DE408C31ADA4B2993DB0B616427F29 /* Pods-LOTRFaceRecognitionTests */ = {
-			isa = PBXGroup;
-			children = (
-				93DCC37671ED8FA218BF0EF72F71B80A /* Pods-LOTRFaceRecognitionTests-acknowledgements.markdown */,
-				4202AC134085AAFBE68572CE2CC92916 /* Pods-LOTRFaceRecognitionTests-acknowledgements.plist */,
-				D6175A769C74BAB840A0200B9EEB8235 /* Pods-LOTRFaceRecognitionTests-dummy.m */,
-				64BC501D9FFE838FF4D79E2E677943C4 /* Pods-LOTRFaceRecognitionTests-frameworks.sh */,
-				E51856F78E4EFB8898842595223B127F /* Pods-LOTRFaceRecognitionTests-resources.sh */,
-				1B21134FF4B5023F707FF1E7E63A3FAE /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */,
-				0B082E50DAE163566CB1BAB2F8749F44 /* Pods-LOTRFaceRecognitionTests.release.xcconfig */,
-			);
-			name = "Pods-LOTRFaceRecognitionTests";
-			path = "Target Support Files/Pods-LOTRFaceRecognitionTests";
-			sourceTree = "<group>";
-		};
-		2713DD46A8C35FEB2418EAAD2037A7BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8DB9005956C74934FB48C2C0596884F0 /* libAFNetworking.a */,
-				C91F506F83A67F7103034527C2AC1EE3 /* libClarifai.a */,
-				FD42D1B62858FFC040746A5BE70BCE43 /* libPods-LOTRFaceRecognition.a */,
-				70C1C642EDA300420D7F339A67B35E3A /* libPods-LOTRFaceRecognitionTests.a */,
-				886B00CF02E0374E1B5322AFBD395F12 /* libPods-LOTRFaceRecognitionUITests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */,
-				80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */,
-				1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */,
-				2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */,
-				343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4C607551C2166F847B5FBF5410AFFDD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BA0C6506919A4FBEBF10460CBAE3DE7 /* AFNetworking.xcconfig */,
-				74264539F094FEDA4F7041F87E4A6BE7 /* AFNetworking-dummy.m */,
-				4A25D7A2183BBC241CEAFF11628A47B5 /* AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		4ED1A0C70317C898B7284FF63E8CBCAC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF06583E904356659262C25B5D972704 /* AFNetworking */,
-				5588E47A2B5111B2DA33EBBD2313D21D /* Clarifai */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		52BF1A0BF653034116ED1EC4D9515EAF /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				670DAEE568821CA1CC4857292A8BD9E5 /* AFHTTPRequestOperation.h */,
-				D6FC47954EF1B5C0D4511363BFA0411F /* AFHTTPRequestOperation.m */,
-				32CC144F88C4AD5D95C637F881DC958B /* AFHTTPRequestOperationManager.h */,
-				600C16406F3CCC2A5BA35A1148B656A4 /* AFHTTPRequestOperationManager.m */,
-				6B8F4DDCF4F9F0B892DF8EBBC9E7B009 /* AFURLConnectionOperation.h */,
-				BBF7799B9235E3303DC1B442CB16D18E /* AFURLConnectionOperation.m */,
-			);
-			name = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		5588E47A2B5111B2DA33EBBD2313D21D /* Clarifai */ = {
-			isa = PBXGroup;
-			children = (
-				9367925C2C3D8F37465FF5EBC7CD0B7C /* ClarifaiApp.h */,
-				86059C15790B2AC6E1A84C6F48FA3E5A /* ClarifaiApp.m */,
-				844E26ECAA12FE3DE505C588A41417FA /* ClarifaiConcept.h */,
-				1D458752D5D10C70F4252DA3AC722297 /* ClarifaiConcept.m */,
-				6D2AB189C6F961ABE41A717ED7EACFEC /* ClarifaiConstants.h */,
-				8DAAF23A35DA095A2784CF695474FB60 /* ClarifaiFace.h */,
-				5351ECB280C9C364B84833935DBAE355 /* ClarifaiFace.m */,
-				0B43982730AAC49985F37FBE0E894C80 /* ClarifaiImage.h */,
-				A4660CC720CA44D5BE567DDF8F61D7B3 /* ClarifaiImage.m */,
-				19C95B379AFE1D5E1E89DD59AF5D6DA3 /* ClarifaiInput.h */,
-				D89E6EF8D7CB5EEF7F9ED8D4ABF695C7 /* ClarifaiInput.m */,
-				8761A267D9E8572E60FC145345C5B73D /* ClarifaiModel.h */,
-				DDD5ECF551D3B85753BFEB8B10978B64 /* ClarifaiModel.m */,
-				27CD5DD02F1F7AF6B1C3CA0F6D86FFDD /* ClarifaiModelVersion.h */,
-				ECB6624471797D3CEDADEB2F04FA1803 /* ClarifaiModelVersion.m */,
-				92E42205B446BE7303B26F5F6C3B5CC1 /* ClarifaiOutput.h */,
-				BDB8633E71A76CE915C517A2C8FEF969 /* ClarifaiOutput.m */,
-				4CEB97843270E81F24B1E6EEB49A1AB1 /* ClarifaiSearchResult.h */,
-				B4B1898BFA2D06294A64BDBC8133E355 /* ClarifaiSearchResult.m */,
-				5D7EB3C53857CF6B8F0A20D35DA98C5E /* ClarifaiSearchTerm.h */,
-				5BC8BA990259542C23DD4CFB336E2313 /* ClarifaiSearchTerm.m */,
-				D21A1262E8F8B855E0CD75D0AF1C30C1 /* NSArray+Clarifai.h */,
-				E8EBA72F85E1A4EEFFFA6AE2DC336D64 /* NSArray+Clarifai.m */,
-				BBA2E6BDAED2B361C4B20FFE3FE43A23 /* Support Files */,
-			);
-			path = Clarifai;
-			sourceTree = "<group>";
-		};
-		61ED9F975091FC296B96BE12BF5EEBDC /* Pods-LOTRFaceRecognitionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FE84A4AC8C0FF7D1430D2FF81B11422B /* Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown */,
-				D58DBEB40BAB7391DAF387EE169EB820 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.plist */,
-				3FD0791194E66CF9421D575882685147 /* Pods-LOTRFaceRecognitionUITests-dummy.m */,
-				11127378E4255E6A09EF57514231810D /* Pods-LOTRFaceRecognitionUITests-frameworks.sh */,
-				A59B92761F242E2DBE57BF35900606E2 /* Pods-LOTRFaceRecognitionUITests-resources.sh */,
-				5BBDDAEBA5ACF6A2153605A47D28CF8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */,
-				398173504E3DF895C669AEF680F039C2 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */,
+				5277F218447AA16F6F7C1C3083F0A241 /* Info.plist */,
+				0449307619B44E46E620B63B2F51363E /* Pods-LOTRFaceRecognitionUITests.modulemap */,
+				B1F9633737767D174B21D754BE861172 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.markdown */,
+				DA394AEF9009E99503955F5225381D49 /* Pods-LOTRFaceRecognitionUITests-acknowledgements.plist */,
+				20CCD53EFAE6A7BC0527BAAC1C79CA12 /* Pods-LOTRFaceRecognitionUITests-dummy.m */,
+				CB06FA78988B11759FCC50A8087B965E /* Pods-LOTRFaceRecognitionUITests-frameworks.sh */,
+				B8922DF3BCE9B8936C993DB2D6E4963C /* Pods-LOTRFaceRecognitionUITests-resources.sh */,
+				876FE83AD25CDAE3F5864F5B5AB8068A /* Pods-LOTRFaceRecognitionUITests-umbrella.h */,
+				57CFE197997266BBC204B1CA0B750F8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */,
+				D0CBB82B74F4FC8836E3807E3A285160 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */,
 			);
 			name = "Pods-LOTRFaceRecognitionUITests";
 			path = "Target Support Files/Pods-LOTRFaceRecognitionUITests";
 			sourceTree = "<group>";
 		};
-		7039E464CE6574EE2DF3BBB63A6E43C3 /* Security */ = {
+		07AB73E419937C58A701F82152A81009 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				B9542DCCE4BE07C64762C798CE1FF1D6 /* AFSecurityPolicy.h */,
-				E7F55C2DD2AA4722F290F169B2F8431A /* AFSecurityPolicy.m */,
+				432850B1CE424DDDB41448A390E42699 /* AFHTTPSessionManager.h */,
+				EB7FD6E93E21EFE41020B17CBF80B38B /* AFHTTPSessionManager.m */,
+				42B2B3449B30C7E4002C91531A04E8E5 /* AFURLSessionManager.h */,
+				5277A9CF728450B568578276F244F998 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		0CA52FD424124BB9CEA190DAFBF380B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2BBE60AFF0D3180C3EACBAABF2564B /* AFNetworking.modulemap */,
+				666378CFE4604F44B2EF48CCFEDD2ABE /* AFNetworking.xcconfig */,
+				1560089E51AA69D4CA23E494C85E5798 /* AFNetworking-dummy.m */,
+				896457752B0373C8BE9F6853EAA457CA /* AFNetworking-prefix.pch */,
+				F7CAC05B19287A34118C6E798C13EBE6 /* AFNetworking-umbrella.h */,
+				D6B5A4B66511CC196D1A3F3174B876CA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		21465422D22BFEA6F4AC193B591F4957 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				796BEE75987E217515B1A13616864BC0 /* AFURLRequestSerialization.h */,
+				ABAA0DA47972DBE0579C26E620E69496 /* AFURLRequestSerialization.m */,
+				3A9B702CC680902C048C7AEA99B25AB3 /* AFURLResponseSerialization.h */,
+				17D0FF30FB9EB16396388A5118C74F59 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		2215DFC7DBF82C4A7A0FE1E8198F2A9F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CA55BAA0B27B262572BF3810C2CACE8B /* AFSecurityPolicy.h */,
+				CA0E5B9E54F5E8DEFECE1898F7F3E30A /* AFSecurityPolicy.m */,
 			);
 			name = Security;
 			sourceTree = "<group>";
 		};
-		772F8D865AA43A4B2A8065E2E6415B1F /* Reachability */ = {
+		3556A2C72C2CF3E5B7FB25789A91B3F0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				5E7194DD47909E7C5D84356A02183C8C /* AFNetworkReachabilityManager.h */,
-				C95F8EFAC8FC2B9E63AC29496D49C123 /* AFNetworkReachabilityManager.m */,
+				627D68CFEBB7679556341502C6541F3A /* AFNetworkActivityIndicatorManager.h */,
+				4619925CF0F53F94A3704375AFAA2EE5 /* AFNetworkActivityIndicatorManager.m */,
+				A547DB922AAE5FF80D0C7BD09F718CEA /* UIActivityIndicatorView+AFNetworking.h */,
+				16CBF488A341E150B145AA05D92124AC /* UIActivityIndicatorView+AFNetworking.m */,
+				142E8C0861BBB175170FEF490BE60772 /* UIAlertView+AFNetworking.h */,
+				DAF9C587B3913F6EAF55E9B6235176F7 /* UIAlertView+AFNetworking.m */,
+				96A8CB90C75C2402CCA29A43664B9C53 /* UIButton+AFNetworking.h */,
+				77882B8D9C556080568C3F265CB3FAAD /* UIButton+AFNetworking.m */,
+				201A997D6351FEECA0790CCEF26EA8AF /* UIImage+AFNetworking.h */,
+				C95F97D70EC1878262D95A4D5D1641C8 /* UIImageView+AFNetworking.h */,
+				1D348A0DD2AB2D7C9FE16465D42A8412 /* UIImageView+AFNetworking.m */,
+				517608D1A6D9A57D3270931F09D39E80 /* UIKit+AFNetworking.h */,
+				46A350515A5957E31E1FE16395815FA1 /* UIProgressView+AFNetworking.h */,
+				57E70D7FB91331EFE8ABCE3B5B5AF0B9 /* UIProgressView+AFNetworking.m */,
+				A56D13CA79D317E730EBAC8C4C5D3179 /* UIRefreshControl+AFNetworking.h */,
+				D9F2682EA5D62AA367D5FBAE7E41BF4F /* UIRefreshControl+AFNetworking.m */,
+				6F2E9B1F3D3AE546088B8A54591CCCAC /* UIWebView+AFNetworking.h */,
+				AAA90A118536B0C4FA2B20532A9565FF /* UIWebView+AFNetworking.m */,
 			);
-			name = Reachability;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		3D8F99DFA3D63795EE3C1A04CA623B07 /* Pods-LOTRFaceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				E57137D6974ACEBA3C3FC817AB1D230B /* Info.plist */,
+				2D353B8160258EE8416FB71645E7F435 /* Pods-LOTRFaceRecognition.modulemap */,
+				F196F450D2E11B247CCBB663C0D0472A /* Pods-LOTRFaceRecognition-acknowledgements.markdown */,
+				023FC20EC1B614AD92E9779AC0BFA33B /* Pods-LOTRFaceRecognition-acknowledgements.plist */,
+				3172CA5FD154F8AAC733FBB1EC37B717 /* Pods-LOTRFaceRecognition-dummy.m */,
+				86BD49F60CB9C2C60953AF271A2BDF15 /* Pods-LOTRFaceRecognition-frameworks.sh */,
+				3598F803F8637772A54C74A0DB92B8D2 /* Pods-LOTRFaceRecognition-resources.sh */,
+				01584B6B235AF3B058E3F5E1142303DA /* Pods-LOTRFaceRecognition-umbrella.h */,
+				4A109E19EBFEEE8DD50817658CC57947 /* Pods-LOTRFaceRecognition.debug.xcconfig */,
+				AD0D0689E233763FEC35A326058AFC60 /* Pods-LOTRFaceRecognition.release.xcconfig */,
+			);
+			name = "Pods-LOTRFaceRecognition";
+			path = "Target Support Files/Pods-LOTRFaceRecognition";
+			sourceTree = "<group>";
+		};
+		4ED1A0C70317C898B7284FF63E8CBCAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFBBF66B73393AA2B2C11C5413F34B /* AFNetworking */,
+				ECCF208B3F95C06BD25D96E07F4984FF /* Clarifai */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55A44614A238C1DE63D389C2765E7D23 /* Pods-LOTRFaceRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				90607CC0EF90F92CB46F6E6FDDC82028 /* Info.plist */,
+				2F6C0B34A67C44E8A6F39380A4CD1F9E /* Pods-LOTRFaceRecognitionTests.modulemap */,
+				42DE6E7F53CF6A967B9BF6565D56B721 /* Pods-LOTRFaceRecognitionTests-acknowledgements.markdown */,
+				6538F93E0F04829ECA7206DFC5D0828F /* Pods-LOTRFaceRecognitionTests-acknowledgements.plist */,
+				DF30F9500EEAF879FAAA0268BF8D1BCA /* Pods-LOTRFaceRecognitionTests-dummy.m */,
+				05DFA7B5B586614D593098B2AA4F2195 /* Pods-LOTRFaceRecognitionTests-frameworks.sh */,
+				CDD4BF7AF0A280991DCCA93A57CB8BC7 /* Pods-LOTRFaceRecognitionTests-resources.sh */,
+				78841D67EE2E19B6A49CDCDF8A254BCA /* Pods-LOTRFaceRecognitionTests-umbrella.h */,
+				5F7FED6072FA4D55C76BADE18DFDEE77 /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */,
+				B32B14AD588BB7B94E4A848A4FB4278B /* Pods-LOTRFaceRecognitionTests.release.xcconfig */,
+			);
+			name = "Pods-LOTRFaceRecognitionTests";
+			path = "Target Support Files/Pods-LOTRFaceRecognitionTests";
+			sourceTree = "<group>";
+		};
+		7A76360772006A0A09BE7AEF6508068C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8F99DFA3D63795EE3C1A04CA623B07 /* Pods-LOTRFaceRecognition */,
+				55A44614A238C1DE63D389C2765E7D23 /* Pods-LOTRFaceRecognitionTests */,
+				0477BB1E400DE12FC3C72B6C5C7F01BC /* Pods-LOTRFaceRecognitionUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */,
 				4ED1A0C70317C898B7284FF63E8CBCAC /* Pods */,
-				2713DD46A8C35FEB2418EAAD2037A7BC /* Products */,
-				D19C444FFEA2A8D45C34203AF349729A /* Targets Support Files */,
+				D662EF23BDF07CBFD8F29206A65F2309 /* Products */,
+				7A76360772006A0A09BE7AEF6508068C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EF547FBB07160440E31B418ABFD3250 /* Serialization */ = {
+		893DA9D9E6EF1BF5A3AB93A699248C40 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				742725D056B891EF4C2A2E518CA40E0F /* AFURLRequestSerialization.h */,
-				D00F72F5A4040C176A3765AFCA650CD7 /* AFURLRequestSerialization.m */,
-				873D836BBA408543A0A87342F52DAA66 /* AFURLResponseSerialization.h */,
-				003E321F51CB6A07E20822C184543BC1 /* AFURLResponseSerialization.m */,
+				E098DE86ED811B6D87786B436462D468 /* CoreGraphics.framework */,
+				55C739F1127D7E94D9137583AECFCC0E /* Foundation.framework */,
+				C53988B41BFD74EE13612A4293F09CD6 /* MobileCoreServices.framework */,
+				8EF139D3016A3EC169A4B9F90049B98D /* Security.framework */,
+				C9EC046EEE00CAE53FC620929325D144 /* SystemConfiguration.framework */,
 			);
-			name = Serialization;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		9645C983A1476255F0484EECFD27C0D0 /* NSURLSession */ = {
+		ACAFBBF66B73393AA2B2C11C5413F34B /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				74DE0A18D50FC178E45CE40F2D6934CE /* AFHTTPSessionManager.h */,
-				0DE04B5AB46505180E1710A3E2A437EE /* AFHTTPSessionManager.m */,
-				14B130F262BC15ADBA2EB46CA4163ED8 /* AFURLSessionManager.h */,
-				F8463A0DC9DA7398C69ED02A32D2B079 /* AFURLSessionManager.m */,
+				A8B31B29D46EE7BFA3A2E5AEEEA3BB29 /* AFNetworking.h */,
+				D1D55B16757F13246D6A4ABC3B7AD2A5 /* NSURLConnection */,
+				07AB73E419937C58A701F82152A81009 /* NSURLSession */,
+				B41074DBB688E2DACB27F313E66B3768 /* Reachability */,
+				2215DFC7DBF82C4A7A0FE1E8198F2A9F /* Security */,
+				21465422D22BFEA6F4AC193B591F4957 /* Serialization */,
+				0CA52FD424124BB9CEA190DAFBF380B9 /* Support Files */,
+				3556A2C72C2CF3E5B7FB25789A91B3F0 /* UIKit */,
 			);
-			name = NSURLSession;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		BBA2E6BDAED2B361C4B20FFE3FE43A23 /* Support Files */ = {
+		B41074DBB688E2DACB27F313E66B3768 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				990B5ADD6313486C05F03F723E5B4255 /* Clarifai.xcconfig */,
-				559AB4BDCB4A12A8DB5E4DB57D1E4105 /* Clarifai-dummy.m */,
-				D1BA660A6692AC54C4DC46A05F6633C5 /* Clarifai-prefix.pch */,
+				4A0852C886A63BAAD65C5BF992AE162D /* AFNetworkReachabilityManager.h */,
+				CEA4B861E7BAC309294A3D7DE50ED103 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		D1D55B16757F13246D6A4ABC3B7AD2A5 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				18993023EE30C64E09EB286BFEC90EE3 /* AFHTTPRequestOperation.h */,
+				589880813E01B28179E4076A3BB244CE /* AFHTTPRequestOperation.m */,
+				143C0522A0943DC50B146F64DC166284 /* AFHTTPRequestOperationManager.h */,
+				D42CB971DCBDAE6EA966048C11158A12 /* AFHTTPRequestOperationManager.m */,
+				048A90845DC691FCC0BBAF8C5826DFB3 /* AFURLConnectionOperation.h */,
+				2B9309AC10524B9A1BB9CB4CA7E722C1 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		D662EF23BDF07CBFD8F29206A65F2309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7BCCB681A3232CA5A0288EFECDEEC1 /* AFNetworking.framework */,
+				31C232E2BA17E0CF8001BE64CEB93ED8 /* Clarifai.framework */,
+				20D7F88C08D0120F8C6427F474412D43 /* Pods_LOTRFaceRecognition.framework */,
+				06D7BAE315E06D59F14E0D5B5E8D4D0A /* Pods_LOTRFaceRecognitionTests.framework */,
+				788F1E569A356BEB94A0CA0C18155F0A /* Pods_LOTRFaceRecognitionUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCF208B3F95C06BD25D96E07F4984FF /* Clarifai */ = {
+			isa = PBXGroup;
+			children = (
+				3AB241E417981B67654C59EC2ABFF15C /* ClarifaiApp.h */,
+				885E0C164833DE3F458C07B60E8FA7B0 /* ClarifaiApp.m */,
+				0D2446B56C73FF7E3AE044F64301B84C /* ClarifaiConcept.h */,
+				A9A0D9D378124CB2A53DAED07269DE83 /* ClarifaiConcept.m */,
+				0596EC4CBCAF39F54C359E62418FF77E /* ClarifaiConstants.h */,
+				DE1621D3A1F0A0E40909040A022A6E25 /* ClarifaiFace.h */,
+				95A74C2FDE4843E9FAB0D2BF960B0DD8 /* ClarifaiFace.m */,
+				A529C4BD859D7A60ED64DFF976D59387 /* ClarifaiImage.h */,
+				B70C88E0F528CD49C613A678AE5814BD /* ClarifaiImage.m */,
+				1FC110ADA03643FDCAA58EEF590D4793 /* ClarifaiInput.h */,
+				D8FAC3C0E44D91E69DFE17D7A9C320BD /* ClarifaiInput.m */,
+				776357E45CE74C66CF95EFB8BFF86A63 /* ClarifaiModel.h */,
+				3535BFFFD953DA551C30EC1E830AC164 /* ClarifaiModel.m */,
+				4279750DB050DC37A3856010E8EC854D /* ClarifaiModelVersion.h */,
+				1617B369D5E0D9DA7A5E116B79707ED5 /* ClarifaiModelVersion.m */,
+				96118B29C0F5F6F9F2BAD1BF4AAC1C7E /* ClarifaiOutput.h */,
+				198FD72AEE2162AB33E0646E46473235 /* ClarifaiOutput.m */,
+				F87F22605B0ED4C33C9916324CF9C87F /* ClarifaiSearchResult.h */,
+				7F9A899E7B57A38C772CB1F3328401E0 /* ClarifaiSearchResult.m */,
+				7536597C9415661131921D623CD2AEBD /* ClarifaiSearchTerm.h */,
+				DFA6C39595B64F529A9DA83E6F90A155 /* ClarifaiSearchTerm.m */,
+				386BD1BE16F6C531AD4B345D4BD3AAD3 /* NSArray+Clarifai.h */,
+				B31B0F86286B97F6540BBD91039E99E3 /* NSArray+Clarifai.m */,
+				F930039F134612D64FD4B33E16BF11E4 /* Support Files */,
+			);
+			path = Clarifai;
+			sourceTree = "<group>";
+		};
+		EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */,
+				893DA9D9E6EF1BF5A3AB93A699248C40 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F930039F134612D64FD4B33E16BF11E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				749E4B7583D06AB03C5A937A61570B9A /* Clarifai.modulemap */,
+				F85D78EA06AB50AD85B0EB7759499F9D /* Clarifai.xcconfig */,
+				9D3CC9E32DA2B93A289AC54A6DE99825 /* Clarifai-dummy.m */,
+				9332D5B1E4A61B7F04B760D811B47D66 /* Clarifai-prefix.pch */,
+				D15A6ACEEA874F7193CA7DF178EA7BBF /* Clarifai-umbrella.h */,
+				39AD00F2D47C637022F1E2ADCE5F043F /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Clarifai";
 			sourceTree = "<group>";
 		};
-		BF06583E904356659262C25B5D972704 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				225F77921C26C9B56D7A30BBF40F5C07 /* AFNetworking.h */,
-				52BF1A0BF653034116ED1EC4D9515EAF /* NSURLConnection */,
-				9645C983A1476255F0484EECFD27C0D0 /* NSURLSession */,
-				772F8D865AA43A4B2A8065E2E6415B1F /* Reachability */,
-				7039E464CE6574EE2DF3BBB63A6E43C3 /* Security */,
-				8EF547FBB07160440E31B418ABFD3250 /* Serialization */,
-				4C607551C2166F847B5FBF5410AFFDD9 /* Support Files */,
-				FFBB60B0A4F22282B702588B395C2270 /* UIKit */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		D19C444FFEA2A8D45C34203AF349729A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2125665513EB302DC927AA6387C1F3DE /* Pods-LOTRFaceRecognition */,
-				22DE408C31ADA4B2993DB0B616427F29 /* Pods-LOTRFaceRecognitionTests */,
-				61ED9F975091FC296B96BE12BF5EEBDC /* Pods-LOTRFaceRecognitionUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FFBB60B0A4F22282B702588B395C2270 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				7F3DCC60D4506AEC21C34975A9FE4280 /* AFNetworkActivityIndicatorManager.h */,
-				A2FA47B93EBD07BEEF7CD96EC4B867E0 /* AFNetworkActivityIndicatorManager.m */,
-				E5E086BECEB4B1F070D55DBB9CEB55D4 /* UIActivityIndicatorView+AFNetworking.h */,
-				23A42606F37350497D0861413823355A /* UIActivityIndicatorView+AFNetworking.m */,
-				756120BA1D280683D466973539BADD32 /* UIAlertView+AFNetworking.h */,
-				E6C204948D860A1AB1A4F6BD7B752508 /* UIAlertView+AFNetworking.m */,
-				84FBCBB24585CE28891D43F7C1B0A235 /* UIButton+AFNetworking.h */,
-				4E070792B78A6A72772647BD2D220F02 /* UIButton+AFNetworking.m */,
-				3356B22842C378ECDACBAF884FF804C7 /* UIImage+AFNetworking.h */,
-				D0EF711E0A3F45A362EEAF7C7F597573 /* UIImageView+AFNetworking.h */,
-				2859ABD73AF3C434D86CF2AC7527E1F9 /* UIImageView+AFNetworking.m */,
-				418A609069A8C4BAD4F8F9AE6529CB01 /* UIKit+AFNetworking.h */,
-				5A17FF7792B87E624D4F76C6A8B50624 /* UIProgressView+AFNetworking.h */,
-				162C555F86F5017E3EF33F1682B347D3 /* UIProgressView+AFNetworking.m */,
-				743525B79316381B66F70858B8F375EE /* UIRefreshControl+AFNetworking.h */,
-				70C34E2956D25AD7B51ACB2D58069DA2 /* UIRefreshControl+AFNetworking.m */,
-				1F4D40CB98611FDA6E559F44D3BBC33C /* UIWebView+AFNetworking.h */,
-				F7402C7CD1FDF60F7F717AB537061DD3 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A5AF7948AC39B8B54902E40445FFCE2 /* Headers */ = {
+		1E1DC48AFD12F93769A33726A591F94E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F72EDF582C9CF82FD1E67B4F725C45F /* ClarifaiApp.h in Headers */,
-				842F963F9F5A9305958FC65C4E7693CD /* ClarifaiConcept.h in Headers */,
-				B13165DE460048B72F66674D950DF87F /* ClarifaiConstants.h in Headers */,
-				51DA0886934D4F82B134DBBACE2B0D95 /* ClarifaiFace.h in Headers */,
-				523673816EF66F907E48420808A3D163 /* ClarifaiImage.h in Headers */,
-				C4129E04C44248AC3B34ABB1A73FCDB2 /* ClarifaiInput.h in Headers */,
-				0E2E77A989CB3934CC675FD5E3653823 /* ClarifaiModel.h in Headers */,
-				5D8F407E9ADFA1B7942323EEEE22F6F9 /* ClarifaiModelVersion.h in Headers */,
-				204F99C9F2F52AD9012E1F8569C313CB /* ClarifaiOutput.h in Headers */,
-				B4BCBF4095CD347423BA53C527EB45DD /* ClarifaiSearchResult.h in Headers */,
-				2190B142292D106EA9F10C0C0DB30F54 /* ClarifaiSearchTerm.h in Headers */,
-				2C793E31FD725B89DCBD1C596FD6B41A /* NSArray+Clarifai.h in Headers */,
+				ED19B78814FF6FB4269AC07F724F0A45 /* Pods-LOTRFaceRecognition-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9C26A9D9761804867532D147CEA1D5A /* Headers */ = {
+		25D36CCF7B4A68CE314860E4A7E9B815 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */,
-				F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */,
-				DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */,
-				F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */,
-				78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */,
-				1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */,
-				DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */,
-				495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */,
-				1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */,
-				5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */,
-				A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */,
-				3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */,
-				903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */,
-				D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */,
-				F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */,
-				C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */,
-				C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */,
-				A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */,
+				BD9D8357BD0A20651A71EC93E49A7912 /* Pods-LOTRFaceRecognitionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C07A7D99CCDE23A891A265A8D98BE86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAAA49336A8EFADA95FF003205F5F4 /* Clarifai-umbrella.h in Headers */,
+				B234A38B3FC218A1ADB092F1A3F284D9 /* ClarifaiApp.h in Headers */,
+				752DDF2256BBB7B41B5B83D8E5D3E663 /* ClarifaiConcept.h in Headers */,
+				0707E57CEFD3A76D4FF22F1B2A8C2BED /* ClarifaiConstants.h in Headers */,
+				5AF0319862C7608BD330927D8D508BCE /* ClarifaiFace.h in Headers */,
+				0CF8AD2B6AE005729228747DC349DD2A /* ClarifaiImage.h in Headers */,
+				947BD1848D9473181E957ECBF4A3BC63 /* ClarifaiInput.h in Headers */,
+				F4BAFB7D8A5A12051E569F928FB3F1D1 /* ClarifaiModel.h in Headers */,
+				C226C20EE3186E2FAD17429EF2B3C58A /* ClarifaiModelVersion.h in Headers */,
+				E549366D86FFC13D70821043A489E409 /* ClarifaiOutput.h in Headers */,
+				3AC81C0004E14C8330C572E17ABAC5C7 /* ClarifaiSearchResult.h in Headers */,
+				76B2A6987341244D9508A3DBAF6C1225 /* ClarifaiSearchTerm.h in Headers */,
+				20310B1EC0A17C961778E2D6133A5579 /* NSArray+Clarifai.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C80F38D01CF08B0F39839F63560CCB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */,
+				4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */,
+				43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */,
+				F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */,
+				96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */,
+				4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */,
+				68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */,
+				6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */,
+				D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */,
+				76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */,
+				DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */,
+				56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */,
+				401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */,
+				76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */,
+				9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */,
+				C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */,
+				7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */,
+				B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */,
+				32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52444D5A2B4A68D463A31D602C0BE08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEE7E2D6F3F4822D03AD1BAD462836F /* Pods-LOTRFaceRecognitionTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3DBBD06FAD2CB15207B1292867B495B3 /* Pods-LOTRFaceRecognitionUITests */ = {
+		4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B78C15D6B8EA53D30D01DF38BF201A2 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionUITests" */;
+			buildConfigurationList = DCFA04D9F87841983F47B020C3F295D0 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				608349993E80A70E5586AFE221D0A001 /* Sources */,
-				ECF8672047FC0072E9C07D6CE09439A4 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-LOTRFaceRecognitionUITests";
-			productName = "Pods-LOTRFaceRecognitionUITests";
-			productReference = 886B00CF02E0374E1B5322AFBD395F12 /* libPods-LOTRFaceRecognitionUITests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3E42934394CDFFC2B3183B92FB0B9B00 /* Pods-LOTRFaceRecognitionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5634ACFD193AC7844C058275C087EA0 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionTests" */;
-			buildPhases = (
-				405B1BFE741A5667B5CC47D41CE86A70 /* Sources */,
-				A4E04A4BB2C66C4AEF7110C03A7D4832 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-LOTRFaceRecognitionTests";
-			productName = "Pods-LOTRFaceRecognitionTests";
-			productReference = 70C1C642EDA300420D7F339A67B35E3A /* libPods-LOTRFaceRecognitionTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */;
-			buildPhases = (
-				9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */,
-				F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */,
-				E9C26A9D9761804867532D147CEA1D5A /* Headers */,
+				D368A0D8E440ED2393A424F47A6C5549 /* Sources */,
+				60C3D26E2C8843CA90222B621C57A0DA /* Frameworks */,
+				9C80F38D01CF08B0F39839F63560CCB2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -607,44 +640,79 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 8DB9005956C74934FB48C2C0596884F0 /* libAFNetworking.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 5C7BCCB681A3232CA5A0288EFECDEEC1 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		BACB47CCC9755497628EC9F9F10D72C3 /* Clarifai */ = {
+		6B16B1A2398BE49519AE382D5A530FD4 /* Pods-LOTRFaceRecognition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C6A744D2F5863CFA8828AD4115A3936 /* Build configuration list for PBXNativeTarget "Clarifai" */;
+			buildConfigurationList = 208CA4B7D8671FF93BB49E08A4714CCF /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognition" */;
 			buildPhases = (
-				40AD8FC702B6C209D221AB11EB890C10 /* Sources */,
-				2430BFFB780467016A8A469038682AB7 /* Frameworks */,
-				9A5AF7948AC39B8B54902E40445FFCE2 /* Headers */,
+				5CB40891307998C605A97071895A6081 /* Sources */,
+				EB50B7A0AAE712FAA57A2412C215CD39 /* Frameworks */,
+				1E1DC48AFD12F93769A33726A591F94E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7ED4629F9786D777D14C348360B46C8 /* PBXTargetDependency */,
-			);
-			name = Clarifai;
-			productName = Clarifai;
-			productReference = C91F506F83A67F7103034527C2AC1EE3 /* libClarifai.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CE9835939D1E5E21957B3545DA038DA3 /* Pods-LOTRFaceRecognition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDB65C210CD774C285C08B20AA9C650 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognition" */;
-			buildPhases = (
-				FB856AE1F8DCF6A7595F5C1DA7B8F18A /* Sources */,
-				458D4F493733FF767B719818B90CFB97 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9BFA756C844774B3D87185C6F7F3A6E /* PBXTargetDependency */,
-				89E888F4346631D4CCCA3462C85DF79D /* PBXTargetDependency */,
+				C2F9124EA5ED9E0FF95784F0E85BC875 /* PBXTargetDependency */,
+				4F19B7FD6F0CF1D035B4C0B51E2A7CF5 /* PBXTargetDependency */,
 			);
 			name = "Pods-LOTRFaceRecognition";
 			productName = "Pods-LOTRFaceRecognition";
-			productReference = FD42D1B62858FFC040746A5BE70BCE43 /* libPods-LOTRFaceRecognition.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 20D7F88C08D0120F8C6427F474412D43 /* Pods_LOTRFaceRecognition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A60577B8F15C4620A7B2973FAA85648D /* Pods-LOTRFaceRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB97E4AD68E8F532118C90DC16316118 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionTests" */;
+			buildPhases = (
+				F8235A0BE72AF8506FF6838BE13A1FAE /* Sources */,
+				0D7BCC6B3B10DDB14A2E5C506DF0AB26 /* Frameworks */,
+				A52444D5A2B4A68D463A31D602C0BE08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LOTRFaceRecognitionTests";
+			productName = "Pods-LOTRFaceRecognitionTests";
+			productReference = 06D7BAE315E06D59F14E0D5B5E8D4D0A /* Pods_LOTRFaceRecognitionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8B943C92D945F13EE27D5FE99C27390 /* Pods-LOTRFaceRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93E2041C64CEEF2BAC411A9CE0433F4 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionUITests" */;
+			buildPhases = (
+				2EF742067969B25091E6354480AD3EDF /* Sources */,
+				2B7804388A1DCE004A8F78B2452B293C /* Frameworks */,
+				25D36CCF7B4A68CE314860E4A7E9B815 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LOTRFaceRecognitionUITests";
+			productName = "Pods-LOTRFaceRecognitionUITests";
+			productReference = 788F1E569A356BEB94A0CA0C18155F0A /* Pods_LOTRFaceRecognitionUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCF335B099A8F5C85B6E062AEA6A559 /* Clarifai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F2C30205A5C60ED299FC6C5CFA1953 /* Build configuration list for PBXNativeTarget "Clarifai" */;
+			buildPhases = (
+				E910E58C92370277AD44319042BF9833 /* Sources */,
+				C305A470BEBF04A294BA750F9862F888 /* Frameworks */,
+				5C07A7D99CCDE23A891A265A8D98BE86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED9BDDCC307472E77221BAC8FA98297 /* PBXTargetDependency */,
+			);
+			name = Clarifai;
+			productName = Clarifai;
+			productReference = 31C232E2BA17E0CF8001BE64CEB93ED8 /* Clarifai.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -663,151 +731,171 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2713DD46A8C35FEB2418EAAD2037A7BC /* Products */;
+			productRefGroup = D662EF23BDF07CBFD8F29206A65F2309 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */,
-				BACB47CCC9755497628EC9F9F10D72C3 /* Clarifai */,
-				CE9835939D1E5E21957B3545DA038DA3 /* Pods-LOTRFaceRecognition */,
-				3E42934394CDFFC2B3183B92FB0B9B00 /* Pods-LOTRFaceRecognitionTests */,
-				3DBBD06FAD2CB15207B1292867B495B3 /* Pods-LOTRFaceRecognitionUITests */,
+				4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */,
+				FCCF335B099A8F5C85B6E062AEA6A559 /* Clarifai */,
+				6B16B1A2398BE49519AE382D5A530FD4 /* Pods-LOTRFaceRecognition */,
+				A60577B8F15C4620A7B2973FAA85648D /* Pods-LOTRFaceRecognitionTests */,
+				F8B943C92D945F13EE27D5FE99C27390 /* Pods-LOTRFaceRecognitionUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		405B1BFE741A5667B5CC47D41CE86A70 /* Sources */ = {
+		2EF742067969B25091E6354480AD3EDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96323346E38C43A3E8CECA25334159A /* Pods-LOTRFaceRecognitionTests-dummy.m in Sources */,
+				1BA5BFB0E62A323351A7EC512A70B3F8 /* Pods-LOTRFaceRecognitionUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40AD8FC702B6C209D221AB11EB890C10 /* Sources */ = {
+		5CB40891307998C605A97071895A6081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FA0DEDA419C7244D65B07B7CB73655 /* Clarifai-dummy.m in Sources */,
-				B8C8DB4D8130B8A51B291A364DAA34A4 /* ClarifaiApp.m in Sources */,
-				EEC40125BF4C81A2FDB841DF28A9DE51 /* ClarifaiConcept.m in Sources */,
-				6D4B3B39D4A48F8FCA0206A9897A3360 /* ClarifaiFace.m in Sources */,
-				A6822FB278F646B0F6878E0BEEE4D911 /* ClarifaiImage.m in Sources */,
-				0A17BC250B0F1EF8672D422957DF1075 /* ClarifaiInput.m in Sources */,
-				D2878F2767C43304638475465359E909 /* ClarifaiModel.m in Sources */,
-				90DFF5577ED0D779481EDC5C628BC786 /* ClarifaiModelVersion.m in Sources */,
-				C76E478E9A58C109BA586E988513B18C /* ClarifaiOutput.m in Sources */,
-				06B9F69170509612A3F21497DCD705FD /* ClarifaiSearchResult.m in Sources */,
-				6928D05AB5C21528234D4FAE2913CC2A /* ClarifaiSearchTerm.m in Sources */,
-				A8F975D0C812A200A193216D5617AC4F /* NSArray+Clarifai.m in Sources */,
+				A88A1D854EC86445F255F03F33F4C760 /* Pods-LOTRFaceRecognition-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		608349993E80A70E5586AFE221D0A001 /* Sources */ = {
+		D368A0D8E440ED2393A424F47A6C5549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF3383A1D18F886F47F55D1F6D0C866 /* Pods-LOTRFaceRecognitionUITests-dummy.m in Sources */,
+				DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */,
+				C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */,
+				D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */,
+				1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */,
+				C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */,
+				4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */,
+				C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */,
+				1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */,
+				DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */,
+				945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */,
+				4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */,
+				BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */,
+				081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */,
+				CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */,
+				1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */,
+				79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */ = {
+		E910E58C92370277AD44319042BF9833 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */,
-				472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */,
-				2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */,
-				B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */,
-				BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */,
-				B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */,
-				E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */,
-				3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */,
-				CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */,
-				6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */,
-				AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */,
-				99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */,
-				D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */,
-				FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */,
-				854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */,
-				9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */,
+				B4A3C38C4229B524E690BD618B7B90F3 /* Clarifai-dummy.m in Sources */,
+				B46E12BD4B3203EDF5FDAE79343D6495 /* ClarifaiApp.m in Sources */,
+				93AA5933BF3376D47BA6A70FBB634106 /* ClarifaiConcept.m in Sources */,
+				990519F9035FB0ACC8C9C4E56F1296BB /* ClarifaiFace.m in Sources */,
+				B934FFD5E7FD399114664A7994504C9D /* ClarifaiImage.m in Sources */,
+				5E7A2BF182BAA023012E8535DD016E68 /* ClarifaiInput.m in Sources */,
+				D05E81D000CBB043AC97B37033338D5C /* ClarifaiModel.m in Sources */,
+				18A9F80A4F5E020843DA0499F39E4306 /* ClarifaiModelVersion.m in Sources */,
+				6E28EE9B2C7F45A974334630F90614B5 /* ClarifaiOutput.m in Sources */,
+				5978BBC122D48D9A74773100383E28BD /* ClarifaiSearchResult.m in Sources */,
+				51840AC1140A4596EB410733BE25625D /* ClarifaiSearchTerm.m in Sources */,
+				F4AA63DBB04D75FA414AB87457E5E2A9 /* NSArray+Clarifai.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB856AE1F8DCF6A7595F5C1DA7B8F18A /* Sources */ = {
+		F8235A0BE72AF8506FF6838BE13A1FAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F0390A08255F449AC5C42BBDD4F731 /* Pods-LOTRFaceRecognition-dummy.m in Sources */,
+				9903F67F8D36C366323F401BC1607CD8 /* Pods-LOTRFaceRecognitionTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		89E888F4346631D4CCCA3462C85DF79D /* PBXTargetDependency */ = {
+		4F19B7FD6F0CF1D035B4C0B51E2A7CF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Clarifai;
-			target = BACB47CCC9755497628EC9F9F10D72C3 /* Clarifai */;
-			targetProxy = 9441FF2597ABAA9936CAFD6CC4672CDB /* PBXContainerItemProxy */;
+			target = FCCF335B099A8F5C85B6E062AEA6A559 /* Clarifai */;
+			targetProxy = 60EA80E804A47493C886B3FD8C868F4C /* PBXContainerItemProxy */;
 		};
-		A9BFA756C844774B3D87185C6F7F3A6E /* PBXTargetDependency */ = {
+		5ED9BDDCC307472E77221BAC8FA98297 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
-			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
-			targetProxy = D04DD92DA55878D1F11FE0ABF4CE8104 /* PBXContainerItemProxy */;
+			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
+			targetProxy = 571DCB56E88B6B83D0A360C075FE57BD /* PBXContainerItemProxy */;
 		};
-		D7ED4629F9786D777D14C348360B46C8 /* PBXTargetDependency */ = {
+		C2F9124EA5ED9E0FF95784F0E85BC875 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
-			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
-			targetProxy = DE0C88D871E88A9BC04360798B506A20 /* PBXContainerItemProxy */;
+			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
+			targetProxy = BD10C7CCBAF0260BA05B6D8390955BED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12BA61649A38BB6A479C65A99CACD065 /* Release */ = {
+		141FC74881284366E81F7EC91B286533 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 990B5ADD6313486C05F03F723E5B4255 /* Clarifai.xcconfig */;
+			baseConfigurationReference = F85D78EA06AB50AD85B0EB7759499F9D /* Clarifai.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Clarifai/Clarifai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Clarifai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Clarifai/Clarifai.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Clarifai;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2E8410CF6900AC7332EC7FD5AB7A44F0 /* Release */ = {
+		18E1B2602B0E901F9F8A1F933B58DF1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B082E50DAE163566CB1BAB2F8749F44 /* Pods-LOTRFaceRecognitionTests.release.xcconfig */;
+			baseConfigurationReference = B32B14AD588BB7B94E4A848A4FB4278B /* Pods-LOTRFaceRecognitionTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognitionTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_LOTRFaceRecognitionTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -849,152 +937,191 @@
 			};
 			name = Release;
 		};
-		498638FC45C6EFFD6F2F81BE1AD4D221 /* Debug */ = {
+		5DD5B7A353B07DE8A42C0B4EA219DFDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 990B5ADD6313486C05F03F723E5B4255 /* Clarifai.xcconfig */;
+			baseConfigurationReference = 57CFE197997266BBC204B1CA0B750F8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Clarifai/Clarifai-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognitionUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LOTRFaceRecognitionUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4A0C70B06E7C1784F41E873B648A4672 /* Release */ = {
+		752039EE65D8302160E325720E4F4E46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91E15EB046E2D14FB97C5F64ACCE9073 /* Pods-LOTRFaceRecognition.release.xcconfig */;
+			baseConfigurationReference = AD0D0689E233763FEC35A326058AFC60 /* Pods-LOTRFaceRecognition.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_LOTRFaceRecognition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		58AC5C52B433FBACFD38A60DE6262F17 /* Debug */ = {
+		8B79E7710ABEA608D3AD1660980EC6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA0C6506919A4FBEBF10460CBAE3DE7 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 4A109E19EBFEEE8DD50817658CC57947 /* Pods-LOTRFaceRecognition.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LOTRFaceRecognition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9340D8E4B2DD920B75C8F847CAD25BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666378CFE4604F44B2EF48CCFEDD2ABE /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		61D01650FA05285CE509298A3645E3D8 /* Release */ = {
+		9BA300AC5D743C9A3FCA3CA5AE5B8A7B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 398173504E3DF895C669AEF680F039C2 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */;
+			baseConfigurationReference = F85D78EA06AB50AD85B0EB7759499F9D /* Clarifai.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/Clarifai/Clarifai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Clarifai/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Clarifai/Clarifai.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clarifai;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6DA2C43BD5A2F9E347EEBF780422D035 /* Debug */ = {
+		A78CB9DDCA338DC66015FA65B1E768B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B0AB823EC36981DE4591414507D1963 /* Pods-LOTRFaceRecognition.debug.xcconfig */;
+			baseConfigurationReference = 666378CFE4604F44B2EF48CCFEDD2ABE /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		8E078D3F41D02A0B1A52603D29EDDDCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BBDDAEBA5ACF6A2153605A47D28CF8F /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9946B96D59368D76D0A654ABE9D4480D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B21134FF4B5023F707FF1E7E63A3FAE /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
+			name = Release;
 		};
 		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1038,44 +1165,80 @@
 			};
 			name = Debug;
 		};
-		F192D4530660B2A322F1F9E33D055F5B /* Release */ = {
+		C142AD381D6D108EE1E0D646F071C247 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA0C6506919A4FBEBF10460CBAE3DE7 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = D0CBB82B74F4FC8836E3807E3A285160 /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognitionUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LOTRFaceRecognitionUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CE90C404F490E6493E17920880B4DE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7FED6072FA4D55C76BADE18DFDEE77 /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LOTRFaceRecognitionTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LOTRFaceRecognitionTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B78C15D6B8EA53D30D01DF38BF201A2 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionUITests" */ = {
+		208CA4B7D8671FF93BB49E08A4714CCF /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E078D3F41D02A0B1A52603D29EDDDCE /* Debug */,
-				61D01650FA05285CE509298A3645E3D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C6A744D2F5863CFA8828AD4115A3936 /* Build configuration list for PBXNativeTarget "Clarifai" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				498638FC45C6EFFD6F2F81BE1AD4D221 /* Debug */,
-				12BA61649A38BB6A479C65A99CACD065 /* Release */,
+				8B79E7710ABEA608D3AD1660980EC6B2 /* Debug */,
+				752039EE65D8302160E325720E4F4E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1089,29 +1252,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+		93F2C30205A5C60ED299FC6C5CFA1953 /* Build configuration list for PBXNativeTarget "Clarifai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58AC5C52B433FBACFD38A60DE6262F17 /* Debug */,
-				F192D4530660B2A322F1F9E33D055F5B /* Release */,
+				141FC74881284366E81F7EC91B286533 /* Debug */,
+				9BA300AC5D743C9A3FCA3CA5AE5B8A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FDB65C210CD774C285C08B20AA9C650 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognition" */ = {
+		CB97E4AD68E8F532118C90DC16316118 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DA2C43BD5A2F9E347EEBF780422D035 /* Debug */,
-				4A0C70B06E7C1784F41E873B648A4672 /* Release */,
+				CE90C404F490E6493E17920880B4DE87 /* Debug */,
+				18E1B2602B0E901F9F8A1F933B58DF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5634ACFD193AC7844C058275C087EA0 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionTests" */ = {
+		D93E2041C64CEEF2BAC411A9CE0433F4 /* Build configuration list for PBXNativeTarget "Pods-LOTRFaceRecognitionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9946B96D59368D76D0A654ABE9D4480D /* Debug */,
-				2E8410CF6900AC7332EC7FD5AB7A44F0 /* Release */,
+				5DD5B7A353B07DE8A42C0B4EA219DFDC /* Debug */,
+				C142AD381D6D108EE1E0D646F071C247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA04D9F87841983F47B020C3F295D0 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9340D8E4B2DD920B75C8F847CAD25BB7 /* Debug */,
+				A78CB9DDCA338DC66015FA65B1E768B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

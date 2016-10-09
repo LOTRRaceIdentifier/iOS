@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71C230F547B4AB50731772CA /* libPods-LOTRFaceRecognition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */; };
-		AED9AA9CAB7D3ABDEF6BA761 /* libPods-LOTRFaceRecognitionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */; };
-		B1972FBE0DABFE60AD5EF42E /* libPods-LOTRFaceRecognitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */; };
+		5D4FD0CA2E401DD5D4205BCF /* Pods_LOTRFaceRecognitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCDD81FE30D16D4ABA97E33 /* Pods_LOTRFaceRecognitionTests.framework */; };
+		89713865DC69192508468F70 /* Pods_LOTRFaceRecognitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3135C19B48A95AC492F64F02 /* Pods_LOTRFaceRecognitionUITests.framework */; };
+		AE1A7020AD6D97F6987D6E42 /* Pods_LOTRFaceRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5F2B03906EBE9739B80F4F /* Pods_LOTRFaceRecognition.framework */; };
 		CD54C9B61DA9F8B9004ECC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B51DA9F8B9004ECC7F /* main.m */; };
 		CD54C9B91DA9F8B9004ECC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */; };
 		CD54C9BC1DA9F8B9004ECC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */; };
@@ -40,11 +40,11 @@
 /* Begin PBXFileReference section */
 		147D9B8C522B624D431A498A /* Pods-LOTRFaceRecognitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1737C942C1BC0CDCD09FC867 /* Pods-LOTRFaceRecognitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionUITests/Pods-LOTRFaceRecognitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3135C19B48A95AC492F64F02 /* Pods_LOTRFaceRecognitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCDD81FE30D16D4ABA97E33 /* Pods_LOTRFaceRecognitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5F2B03906EBE9739B80F4F /* Pods_LOTRFaceRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTRFaceRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACDDE9CCDDC1184500BB5CB /* Pods-LOTRFaceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C80FF3BE0CB082341DC3AB /* Pods-LOTRFaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
-		9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTRFaceRecognitionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9B11DA9F8B9004ECC7F /* LOTRFaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRFaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9B51DA9F8B9004ECC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD54C9B71DA9F8B9004ECC7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C230F547B4AB50731772CA /* libPods-LOTRFaceRecognition.a in Frameworks */,
+				AE1A7020AD6D97F6987D6E42 /* Pods_LOTRFaceRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1972FBE0DABFE60AD5EF42E /* libPods-LOTRFaceRecognitionTests.a in Frameworks */,
+				5D4FD0CA2E401DD5D4205BCF /* Pods_LOTRFaceRecognitionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED9AA9CAB7D3ABDEF6BA761 /* libPods-LOTRFaceRecognitionUITests.a in Frameworks */,
+				89713865DC69192508468F70 /* Pods_LOTRFaceRecognitionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,9 +173,9 @@
 		F6723217B0492F85FAEC8068 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54C938E3AA3A33D337A8402C /* libPods-LOTRFaceRecognition.a */,
-				6E521C13EFC794FFD36356DE /* libPods-LOTRFaceRecognitionTests.a */,
-				9EE0A1D06F2EBC9EEEA19ADC /* libPods-LOTRFaceRecognitionUITests.a */,
+				4B5F2B03906EBE9739B80F4F /* Pods_LOTRFaceRecognition.framework */,
+				3DCDD81FE30D16D4ABA97E33 /* Pods_LOTRFaceRecognitionTests.framework */,
+				3135C19B48A95AC492F64F02 /* Pods_LOTRFaceRecognitionUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -522,6 +522,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -569,6 +570,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

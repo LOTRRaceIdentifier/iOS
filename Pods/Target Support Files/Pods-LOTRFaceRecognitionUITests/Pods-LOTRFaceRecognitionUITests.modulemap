@@ -1,0 +1,6 @@
+framework module Pods_LOTRFaceRecognitionUITests {
+  umbrella header "Pods-LOTRFaceRecognitionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
