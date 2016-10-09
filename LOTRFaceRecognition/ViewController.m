@@ -74,12 +74,29 @@
                 
                 bool grey = false;
                 bool beard = false;
+                bool manOrAdult = false;
+                bool longH = false;
+                bool hair = false;
+                bool crown = false;
+                
                 for (ClarifaiConcept *concept in output.concepts) {
                     if ([concept.conceptName isEqualToString:@"grey"]) {
                         grey = true;
                     }
                     if ([concept.conceptName isEqualToString:@"beard"]) {
                         beard = true;
+                    }
+                    if ([concept.conceptName isEqualToString:@"man"] || [concept.conceptName isEqualToString:@"adult"]) {
+                        manOrAdult = true;
+                    }
+                    if ([concept.conceptName isEqualToString:@"hair"]) {
+                        hair = true;
+                    }
+                    if ([concept.conceptName isEqualToString:@"long"]) {
+                        longH = true;
+                    }
+                    if ([concept.conceptName isEqualToString:@"crown"]) {
+                        crown = true;
                     }
                 }
                 
@@ -97,6 +114,18 @@
                             vc.image = [UIImage imageNamed:@"Images/gimli.jpg"];
                             vc.string = @"You are a Dwarf!";
                         }
+                    }
+                    else if (crown) {
+                        vc.image = [UIImage imageNamed:@"Images/galadriel.jpg"];
+                        vc.string = @"You are Galadriel!";
+                    }
+                    else if (manOrAdult) {
+                        vc.image = [UIImage imageNamed:@"Images/man.jpg"];
+                        vc.string = @"You are a Human!";
+                    }
+                    else if (longH && hair) {
+                        vc.image = [UIImage imageNamed:@"Images/elf.jpg"];
+                        vc.string = @"You are an Elf!";
                     }
                     else {
                         vc.image = [UIImage imageNamed:@"Images/goblin.jpg"];
