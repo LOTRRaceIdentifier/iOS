@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD54C9B61DA9F8B9004ECC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B51DA9F8B9004ECC7F /* main.m */; };
+		CD54C9B91DA9F8B9004ECC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */; };
+		CD54C9BC1DA9F8B9004ECC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */; };
+		CD54C9BF1DA9F8B9004ECC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD54C9BD1DA9F8B9004ECC7F /* Main.storyboard */; };
+		CD54C9C11DA9F8B9004ECC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD54C9C01DA9F8B9004ECC7F /* Assets.xcassets */; };
+		CD54C9C41DA9F8B9004ECC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD54C9C21DA9F8B9004ECC7F /* LaunchScreen.storyboard */; };
+		CD54C9CF1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9CE1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m */; };
+		CD54C9DA1DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD54C9CB1DA9F8BA004ECC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD54C9A91DA9F8B9004ECC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD54C9B01DA9F8B9004ECC7F;
+			remoteInfo = LOTRFaceRecognition;
+		};
+		CD54C9D61DA9F8BA004ECC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD54C9A91DA9F8B9004ECC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD54C9B01DA9F8B9004ECC7F;
+			remoteInfo = LOTRFaceRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD54C9B11DA9F8B9004ECC7F /* LOTRFaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRFaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD54C9B51DA9F8B9004ECC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD54C9B71DA9F8B9004ECC7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD54C9BA1DA9F8B9004ECC7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD54C9BE1DA9F8B9004ECC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD54C9C01DA9F8B9004ECC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD54C9C31DA9F8B9004ECC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD54C9C51DA9F8B9004ECC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD54C9CA1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRFaceRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD54C9CE1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOTRFaceRecognitionTests.m; sourceTree = "<group>"; };
+		CD54C9D01DA9F8BA004ECC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD54C9D51DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRFaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOTRFaceRecognitionUITests.m; sourceTree = "<group>"; };
+		CD54C9DB1DA9F8BA004ECC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD54C9AE1DA9F8B9004ECC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9C71DA9F8BA004ECC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9D21DA9F8BA004ECC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD54C9A81DA9F8B9004ECC7F = {
+			isa = PBXGroup;
+			children = (
+				CD54C9B31DA9F8B9004ECC7F /* LOTRFaceRecognition */,
+				CD54C9CD1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests */,
+				CD54C9D81DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests */,
+				CD54C9B21DA9F8B9004ECC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD54C9B21DA9F8B9004ECC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD54C9B11DA9F8B9004ECC7F /* LOTRFaceRecognition.app */,
+				CD54C9CA1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.xctest */,
+				CD54C9D51DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD54C9B31DA9F8B9004ECC7F /* LOTRFaceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				CD54C9B71DA9F8B9004ECC7F /* AppDelegate.h */,
+				CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */,
+				CD54C9BA1DA9F8B9004ECC7F /* ViewController.h */,
+				CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */,
+				CD54C9BD1DA9F8B9004ECC7F /* Main.storyboard */,
+				CD54C9C01DA9F8B9004ECC7F /* Assets.xcassets */,
+				CD54C9C21DA9F8B9004ECC7F /* LaunchScreen.storyboard */,
+				CD54C9C51DA9F8B9004ECC7F /* Info.plist */,
+				CD54C9B41DA9F8B9004ECC7F /* Supporting Files */,
+			);
+			path = LOTRFaceRecognition;
+			sourceTree = "<group>";
+		};
+		CD54C9B41DA9F8B9004ECC7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD54C9B51DA9F8B9004ECC7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD54C9CD1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD54C9CE1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m */,
+				CD54C9D01DA9F8BA004ECC7F /* Info.plist */,
+			);
+			path = LOTRFaceRecognitionTests;
+			sourceTree = "<group>";
+		};
+		CD54C9D81DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */,
+				CD54C9DB1DA9F8BA004ECC7F /* Info.plist */,
+			);
+			path = LOTRFaceRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD54C9B01DA9F8B9004ECC7F /* LOTRFaceRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD54C9DE1DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognition" */;
+			buildPhases = (
+				CD54C9AD1DA9F8B9004ECC7F /* Sources */,
+				CD54C9AE1DA9F8B9004ECC7F /* Frameworks */,
+				CD54C9AF1DA9F8B9004ECC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOTRFaceRecognition;
+			productName = LOTRFaceRecognition;
+			productReference = CD54C9B11DA9F8B9004ECC7F /* LOTRFaceRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD54C9C91DA9F8BA004ECC7F /* LOTRFaceRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD54C9E11DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionTests" */;
+			buildPhases = (
+				CD54C9C61DA9F8BA004ECC7F /* Sources */,
+				CD54C9C71DA9F8BA004ECC7F /* Frameworks */,
+				CD54C9C81DA9F8BA004ECC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD54C9CC1DA9F8BA004ECC7F /* PBXTargetDependency */,
+			);
+			name = LOTRFaceRecognitionTests;
+			productName = LOTRFaceRecognitionTests;
+			productReference = CD54C9CA1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD54C9D41DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD54C9E41DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionUITests" */;
+			buildPhases = (
+				CD54C9D11DA9F8BA004ECC7F /* Sources */,
+				CD54C9D21DA9F8BA004ECC7F /* Frameworks */,
+				CD54C9D31DA9F8BA004ECC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD54C9D71DA9F8BA004ECC7F /* PBXTargetDependency */,
+			);
+			name = LOTRFaceRecognitionUITests;
+			productName = LOTRFaceRecognitionUITests;
+			productReference = CD54C9D51DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD54C9A91DA9F8B9004ECC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Manas Purohit";
+				TargetAttributes = {
+					CD54C9B01DA9F8B9004ECC7F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T6KMZHX56L;
+						ProvisioningStyle = Automatic;
+					};
+					CD54C9C91DA9F8BA004ECC7F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T6KMZHX56L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD54C9B01DA9F8B9004ECC7F;
+					};
+					CD54C9D41DA9F8BA004ECC7F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T6KMZHX56L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD54C9B01DA9F8B9004ECC7F;
+					};
+				};
+			};
+			buildConfigurationList = CD54C9AC1DA9F8B9004ECC7F /* Build configuration list for PBXProject "LOTRFaceRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD54C9A81DA9F8B9004ECC7F;
+			productRefGroup = CD54C9B21DA9F8B9004ECC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD54C9B01DA9F8B9004ECC7F /* LOTRFaceRecognition */,
+				CD54C9C91DA9F8BA004ECC7F /* LOTRFaceRecognitionTests */,
+				CD54C9D41DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD54C9AF1DA9F8B9004ECC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD54C9C41DA9F8B9004ECC7F /* LaunchScreen.storyboard in Resources */,
+				CD54C9C11DA9F8B9004ECC7F /* Assets.xcassets in Resources */,
+				CD54C9BF1DA9F8B9004ECC7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9C81DA9F8BA004ECC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9D31DA9F8BA004ECC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD54C9AD1DA9F8B9004ECC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD54C9BC1DA9F8B9004ECC7F /* ViewController.m in Sources */,
+				CD54C9B91DA9F8B9004ECC7F /* AppDelegate.m in Sources */,
+				CD54C9B61DA9F8B9004ECC7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9C61DA9F8BA004ECC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD54C9CF1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD54C9D11DA9F8BA004ECC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD54C9DA1DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD54C9CC1DA9F8BA004ECC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD54C9B01DA9F8B9004ECC7F /* LOTRFaceRecognition */;
+			targetProxy = CD54C9CB1DA9F8BA004ECC7F /* PBXContainerItemProxy */;
+		};
+		CD54C9D71DA9F8BA004ECC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD54C9B01DA9F8B9004ECC7F /* LOTRFaceRecognition */;
+			targetProxy = CD54C9D61DA9F8BA004ECC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD54C9BD1DA9F8B9004ECC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD54C9BE1DA9F8B9004ECC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD54C9C21DA9F8B9004ECC7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD54C9C31DA9F8B9004ECC7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD54C9DC1DA9F8BA004ECC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD54C9DD1DA9F8BA004ECC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD54C9DF1DA9F8BA004ECC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD54C9E01DA9F8BA004ECC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD54C9E21DA9F8BA004ECC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOTRFaceRecognition.app/LOTRFaceRecognition";
+			};
+			name = Debug;
+		};
+		CD54C9E31DA9F8BA004ECC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOTRFaceRecognition.app/LOTRFaceRecognition";
+			};
+			name = Release;
+		};
+		CD54C9E51DA9F8BA004ECC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LOTRFaceRecognition;
+			};
+			name = Debug;
+		};
+		CD54C9E61DA9F8BA004ECC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T6KMZHX56L;
+				INFOPLIST_FILE = LOTRFaceRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManasPurohit.LOTRFaceRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LOTRFaceRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD54C9AC1DA9F8B9004ECC7F /* Build configuration list for PBXProject "LOTRFaceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD54C9DC1DA9F8BA004ECC7F /* Debug */,
+				CD54C9DD1DA9F8BA004ECC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD54C9DE1DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD54C9DF1DA9F8BA004ECC7F /* Debug */,
+				CD54C9E01DA9F8BA004ECC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD54C9E11DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD54C9E21DA9F8BA004ECC7F /* Debug */,
+				CD54C9E31DA9F8BA004ECC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD54C9E41DA9F8BA004ECC7F /* Build configuration list for PBXNativeTarget "LOTRFaceRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD54C9E51DA9F8BA004ECC7F /* Debug */,
+				CD54C9E61DA9F8BA004ECC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD54C9A91DA9F8B9004ECC7F /* Project object */;
+}
