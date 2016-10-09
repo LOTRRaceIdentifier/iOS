@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ClarifaiApp.h"
+#import "ImageViewController.h"
 
 @interface ViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -82,18 +83,27 @@
                     }
                 }
                 
+                
                 dispatch_async(dispatch_get_main_queue(), ^{
+                    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+                    ImageViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"ImageViewController"];
+                    
                     if (beard) {
                         if (grey) {
-                            self.recLabel.text = @"Gandalf";
+                            vc.image = [UIImage imageNamed:@"Images/gandalf.jpg"];
+                            vc.string = @"You are Gandalf!";
                         }
                         else {
-                            self.recLabel.text = @"Dwarf";
+                            vc.image = [UIImage imageNamed:@"Images/gimli.jpg"];
+                            vc.string = @"You are a Dwarf!";
                         }
                     }
                     else {
-                        self.recLabel.text = @"Poop";
+                        vc.image = [UIImage imageNamed:@"Images/goblin.jpg"];
+                        vc.string = @"Trying to fool me, Goblin?";
                     }
+                    
+                    [self presentViewController:vc animated:YES completion:nil];
                 });
             }
         }];

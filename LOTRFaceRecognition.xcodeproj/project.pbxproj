@@ -18,6 +18,8 @@
 		CD54C9C41DA9F8B9004ECC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD54C9C21DA9F8B9004ECC7F /* LaunchScreen.storyboard */; };
 		CD54C9CF1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9CE1DA9F8BA004ECC7F /* LOTRFaceRecognitionTests.m */; };
 		CD54C9DA1DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */; };
+		CDE223161DAA3AD50022D889 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE223151DAA3AD50022D889 /* ImageViewController.m */; };
+		CDE2231A1DAA49E80022D889 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDE223191DAA49E80022D889 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		CD54C9D51DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRFaceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD54C9D91DA9F8BA004ECC7F /* LOTRFaceRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOTRFaceRecognitionUITests.m; sourceTree = "<group>"; };
 		CD54C9DB1DA9F8BA004ECC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE223141DAA3AD50022D889 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		CDE223151DAA3AD50022D889 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		CDE223191DAA49E80022D889 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		DC7F231AC88F0194C5A0DF6C /* Pods-LOTRFaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognition/Pods-LOTRFaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
 		EDF468F4FED854C60DA24A6E /* Pods-LOTRFaceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTRFaceRecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOTRFaceRecognitionTests/Pods-LOTRFaceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +136,11 @@
 		CD54C9B31DA9F8B9004ECC7F /* LOTRFaceRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				CDE223191DAA49E80022D889 /* Images */,
 				CD54C9B71DA9F8B9004ECC7F /* AppDelegate.h */,
 				CD54C9B81DA9F8B9004ECC7F /* AppDelegate.m */,
+				CDE223141DAA3AD50022D889 /* ImageViewController.h */,
+				CDE223151DAA3AD50022D889 /* ImageViewController.m */,
 				CD54C9BA1DA9F8B9004ECC7F /* ViewController.h */,
 				CD54C9BB1DA9F8B9004ECC7F /* ViewController.m */,
 				CD54C9BD1DA9F8B9004ECC7F /* Main.storyboard */,
@@ -297,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE2231A1DAA49E80022D889 /* Images in Resources */,
 				CD54C9C41DA9F8B9004ECC7F /* LaunchScreen.storyboard in Resources */,
 				CD54C9C11DA9F8B9004ECC7F /* Assets.xcassets in Resources */,
 				CD54C9BF1DA9F8B9004ECC7F /* Main.storyboard in Resources */,
@@ -449,6 +458,7 @@
 			files = (
 				CD54C9BC1DA9F8B9004ECC7F /* ViewController.m in Sources */,
 				CD54C9B91DA9F8B9004ECC7F /* AppDelegate.m in Sources */,
+				CDE223161DAA3AD50022D889 /* ImageViewController.m in Sources */,
 				CD54C9B61DA9F8B9004ECC7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
